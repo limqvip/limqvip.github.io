@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.0.1" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.0.1" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="stone" type="application/atom+xml" />
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="标签">
+<meta property="og:url" content="https://limqvip.github.io/tags/index.html">
+<meta property="og:site_name" content="stone">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-08-22T01:40:12.253Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="标签">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '6.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://limqvip.github.io/tags/"/>
+
+
+
+
+
+  <title>freebsdinstall.md | stone</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?51abc1331927d6a2fba4b10a0f9e3ab9";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+     
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">stone</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://limqvip.github.io/2018/09/20/freebsdinstall-md/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Limq">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="stone">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">freebsdinstall.md</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-20T16:43:43+08:00">2018-09-20</time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-20T16:43:43+08:00">2018-09-20</time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/FreeBSD/" itemprop="url" rel="index">
+                    <span itemprop="name">FreeBSD</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i> 浏览
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>ssh 172.16.210.128</p>
+<ol>
+<li><h4 id="不通用户获得-su-权限FreeBSD系统下su-sorry的解决办法"><a href="#不通用户获得-su-权限FreeBSD系统下su-sorry的解决办法" class="headerlink" title="不通用户获得 su 权限FreeBSD系统下su:sorry的解决办法"></a>不通用户获得 su 权限FreeBSD系统下su:sorry的解决办法</h4><pre><code>在FreeBSD上要使用su命令成为root用户，不但要知道root的口令，还需要经过特别设置，否则就不能成功使用这个命令。这是因为 FreeBSD对执行su命令的用户进行了更严格的限制，能使用su命令的用户必须属于wheel组（root的基本属组，组ID为0），否则就不能通过 这个命令成为root用户。因此需要编辑组设置文件/etc/group，将需要超级用户权力的管理成员加入到wheel组中。
+可以使用如下命令给普通用户su - root的权力：
+pw groupmod wheel -m &lt;username&gt;
+pw user mod &lt;username&gt; -g wheel
+或者直接修改/etc/group文件，把相应的用户加到wheell组就可以
+wheel:*:0:root,username
+</code></pre><p>   FreeBSD系统下默认是不允许root用户直接通过ssh连接到服务器的，在安装FreeBSD系统时要创建一个额外的用户，切忌一定要把这个用户加 入到wheel组中（如果不加入到这个组中的话就无法ssh），也可以安装完系统后创建用户，并把这个用户加入wheel组。</p>
+</li>
+</ol>
+<p>   跟用户和组有关的两个文件：/etc/passwd   /etc/group</p>
+<p>   用vipw可以直接修改/etc/passwd里的内容</p>
+<h4 id="安装sudo"><a href="#安装sudo" class="headerlink" title="安装sudo"></a>安装sudo</h4><p>root# cd /usr/ports/security/sudo root# make install clean root# rehash sudo的配置文件是/usr/local/etc/sudoers，同时该目录下还有一个sudoers.default初始配置文件。 sudo的配置文件不能直接用其他编辑工具编辑，而必须用visudo来进行修改。 root# visudo                      注意后面不需要文件名 下面是配置sudo的简单方法： # User privilege specification root    ALL=(ALL) ALL test    ALL=(ALL) ALL %wheel ALL=(ALL) ALL</p>
+<h4 id="reebsd开启root远程登录服务器的操作"><a href="#reebsd开启root远程登录服务器的操作" class="headerlink" title="reebsd开启root远程登录服务器的操作"></a>reebsd开启root远程登录服务器的操作</h4><p>freebsd开启root远程登录服务器的操作<br>vi /etc/ssh/sshd_config</p>
+<p>找到</p>
+<p>#PermitRootLogin no</p>
+<p>改为<br>PermitRootLogin yes</p>
+<p> 重新启动sshd<br>/etc/rc.d/sshd restart</p>
+<h4 id="FreeBSD安装VIM最简单的方法"><a href="#FreeBSD安装VIM最简单的方法" class="headerlink" title="FreeBSD安装VIM最简单的方法"></a>FreeBSD安装VIM最简单的方法</h4><p>个人分类： <a href="https://blog.csdn.net/Illina/article/category/7036069" target="_blank" rel="noopener">FreeBSD</a></p>
+<p>  查阅了相关资料，FreeBSD系统有两种方法可以安装vim。</p>
+<p>  <strong>方法一：</strong></p>
+<p>  通过ports工具安装</p>
+<p>  #cd /usr/ports/editor/vim</p>
+<p>  #make install</p>
+<p>  安装过程提示失败，也没有找到解决方法，尝试方法二</p>
+<p>  <strong>方法二：</strong></p>
+<p>  通过pkg命令安装</p>
+<p>  #pkg install vim</p>
+<hr>
+<h4 id="推荐】freeBSD优秀学习站点"><a href="#推荐】freeBSD优秀学习站点" class="headerlink" title="推荐】freeBSD优秀学习站点"></a><a href="https://blog.csdn.net/fngsong/article/details/18622999" target="_blank" rel="noopener">推荐】freeBSD优秀学习站点</a></h4><p><a href="http://www.freebsd.org.cn/snap/doc/zh_CN.GB2312/books/handbook/（最新版FreeBSD使用手册）" target="_blank" rel="noopener">http://www.freebsd.org.cn/snap/doc/zh_CN.GB2312/books/handbook/（最新版FreeBSD使用手册）</a><br><a href="http://man.chinaunix.net/bsd/freebsd/zh/" target="_blank" rel="noopener">http://man.chinaunix.net/bsd/freebsd/zh/</a> （另外一个freeBSD使用手册）<br><a href="http://ohaha.ks.edu.tw/" target="_blank" rel="noopener">http://ohaha.ks.edu.tw/</a> （一个优秀的TW freeBSD学习站点）<br><a href="http://www.twbsd.org/index.php" target="_blank" rel="noopener">http://www.twbsd.org/index.php</a> （又一个优秀的TW freeBSD学习站点）</p>
+<p><a href="ftp://freebsd.csie.nctu.edu.tw/" target="_blank" rel="noopener">ftp://freebsd.csie.nctu.edu.tw/</a> （freeBSD下载版本很全）<br><a href="http://www.freebsd.org.cn/snap/d" target="_blank" rel="noopener">http://www.freebsd.org.cn/snap/d</a> … s/porters-handbook/ （FreeBSD Porter 手册）<br><a href="http://ebook.cnfug.org/ebook/pub/BSD/FreeBSD%20Unleshed/" target="_blank" rel="noopener">http://ebook.cnfug.org/ebook/pub/BSD/FreeBSD%20Unleshed/</a> （freeBSD技术内幕[英]）<br><a href="http://kajaa.bbs.us/ApacheManual/" target="_blank" rel="noopener">http://kajaa.bbs.us/ApacheManual/</a> （Apache 2.0手册中文版）</p>
+<p><a href="http://kukusky.8800.org/" target="_blank" rel="noopener">http://kukusky.8800.org/</a> （Kukusky  Freebsd资源网）</p>
+<p>中文站点</p>
+<p><a href="http://bbs.ee.ntu.edu.tw" target="_blank" rel="noopener">台大电机Maxwell BBS BSD精华区</a><br><a href="http://freebsd.csie.nctu.edu.tw" target="_blank" rel="noopener">TW FreeBSD总站，交大资工FreeBSD</a><br><a href="http://freebsd.sinica.edu.tw" target="_blank" rel="noopener">中研院FreeBSD</a><br><a href="http://freebsd.sinica.edu.tw/zh-tut/" target="_blank" rel="noopener">FreeBSD Chinese HOWTO</a><br><a href="http://ohaha.ks.edu.tw" target="_blank" rel="noopener">蓝色泡泡的OHAHA</a><br><a href="http://freebsd.lab.mlc.edu.tw/" target="_blank" rel="noopener">大南国小的FreeBSD</a><br><a href="http://tech.sina.com.cn/focus/FreeBSD/index.shtml" target="_blank" rel="noopener">FreeBSD 使用大全</a> </p>
+<p>英文站点</p>
+<p><a href="http://www.freebsd.org" target="_blank" rel="noopener">FreeBSD总部</a><br><a href="http://www.freebsd.org/doc/" target="_blank" rel="noopener">FreeBSD Handbook</a><br><a href="http://www.mostgraveconcern.com/freebsd/" target="_blank" rel="noopener">FreeBSD Cheat Sheets</a><br><a href="http://www.freshports.org/" target="_blank" rel="noopener">Fresh Ports</a><br><a href="http://www.onlamp.com/bsd/" target="_blank" rel="noopener">ONLamp.com:FreeBSD Basics</a><br>[A Comprehensive Guide to FreeBSD]</p>
+<hr>
+<p>10下载](<a href="https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/10.4/" target="_blank" rel="noopener">https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/10.4/</a>)<br><a href="https://wiki.freebsdchina.org/doc/k/kernel#bootloaderconf_%E9%85%8D%E7%BD%AE" target="_blank" rel="noopener">笔记本电脑BSD</a></p>
+<p><a href="https://www.cyberciti.biz/faq/howto-install-kernel-headers-package/" target="_blank" rel="noopener">安装vMware问题及解决</a></p>
+<p><a href="https://download.freebsd.org/ftp/snapshots/arm64/aarch64/ISO-IMAGES/12.0/" target="_blank" rel="noopener">12下载地址</a></p>
+<p><a href="https://www.freebsdchina.org/forum/viewforum.php?f=34&amp;sid=1600eee36fe6834d8d2fb00f815d7312" target="_blank" rel="noopener">FreeBSDchina.org</a></p>
+<h4 id="freebsd-强制重新安装最新版-pkg-命令"><a href="#freebsd-强制重新安装最新版-pkg-命令" class="headerlink" title="freebsd 强制重新安装最新版 pkg 命令"></a>freebsd 强制重新安装最新版 pkg 命令</h4><p>个人分类： <a href="https://blog.csdn.net/joyous/article/category/1112594" target="_blank" rel="noopener">所有</a><a href="https://blog.csdn.net/joyous/article/category/1072684" target="_blank" rel="noopener">FreeBSD</a></p>
+<p>进入 pkg 目录</p>
+<p>cd /usr/ports/ports-mgmt/pkg</p>
+<p>运行删除及重新安装，并且忽略兼容性</p>
+<p>make clean deinstall reinstall -D ALLOW_UNSUPPORTED_SYSTEM</p>
+<p>而直接强制安装则是</p>
+<p>make clean install -D ALLOW_UNSUPPORTED_SYSTEM</p>
+<p>若要强制安全其他的软件，也是类似。</p>
+<h4 id="FreeBSD下修改安装源的方法"><a href="#FreeBSD下修改安装源的方法" class="headerlink" title="FreeBSD下修改安装源的方法"></a><a href="https://blog.csdn.net/willhuo/article/details/49384445" target="_blank" rel="noopener">FreeBSD下修改安装源的方法</a></h4><p><strong>说明：</strong></p>
+<p>FreeBSD中安装软件一般有两种方式：</p>
+<p>（一）、使用pk_add -r Package 来安装软件，Package安装的是已经编译好的二进制软件包，Package默认下载软件包的路径是在/var/db/pkg中</p>
+<p>（二）、使用Ports方式编译安装，Ports是下载源码到本地，再执行编译安装，ports软件包的路径是在/usr/ports中</p>
+<p>以上两种安装方式都需要从网络下载软件包，默认是从官方的源下载软件包的，速度比较慢，可以修改配置文件指定国内的镜像源来快速安装软件</p>
+<p><strong>1、修改Pcakage源为163的镜像源</strong></p>
+<p>setenv PACKAGESITE </p>
+<p><a href="http://mirrors.163.com/FreeBSD/releases/i386/8.1-RELEASE/packages/Latest/" target="_blank" rel="noopener">http://mirrors.163.com/FreeBSD/releases/i386/8.1-RELEASE/packages/Latest/</a></p>
+<p>pkg_add -r package    #package为要安装的软件名</p>
+<p><strong>2、安装Ports源</strong></p>
+<p>portsnap fetch -s portsnap.cn.freebsd.org </p>
+<pre><code>\#安装ports
+</code></pre><p>ee /etc/portsnap.conf   #编辑文件</p>
+<p>SERVERNAME=portsnap.cn.FreeBSD.org</p>
+<pre><code>\#更改服务器为国内镜像
+</code></pre><p>按esc 回车，再按a保存</p>
+<p>portsnap fetch extract </p>
+<p>  #下载ports快照</p>
+<p>portsnap update  #更新</p>
+<p>ee /etc/make.conf  #编辑文件，添加下面代码</p>
+<p>MASTER_SITE_BACKUP?=<a href="http://mirrors.163.com/FreeBSD/distfiles/${DIST_SUBDIR}/" target="_blank" rel="noopener">http://mirrors.163.com/FreeBSD/distfiles/${DIST_SUBDIR}/</a></p>
+<p>MASTER_SITE_OVERRIDE?=${MASTER_SITE_BACKUP}</p>
+<p>cd  /usr/ports</p>
+<p>make search name=nginx    #查找ports中是否有nginx这个软件</p>
+<p>cd  /usr/ports/www/nginx   #进入软件包目录</p>
+<p>make install clean    #安装</p>
+<p>make deinstall clean   #卸载</p>
+<p>make deinstall reinstall clean  #升级</p>
+<p>来源 系统运维 osyunwei.com</p>
+<hr>
+<p><a href="http://blog.chinaunix.net/uid-26577845-id-5755035.html" target="_blank" rel="noopener">FreeBSD 11.0安装完成初设定</a></p>
+<hr>
+<p><a href="http://blog.51cto.com/cmdschool/1728933" target="_blank" rel="noopener">freebsd从安装到想要的状态配置</a></p>
+<h1 id="FreeBSD应该装gnome3做桌面"><a href="#FreeBSD应该装gnome3做桌面" class="headerlink" title="FreeBSD应该装gnome3做桌面"></a><a href="https://www.cnblogs.com/x3d/p/4747052.html" target="_blank" rel="noopener">FreeBSD应该装gnome3做桌面</a></h1><p>目前freebsd pkg包管理体系的repo源多了一些，速度快了很多。</p>
+<p>仓库中目前的版本为3.14，安装gnome3很简单。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">pkg install xorg gnome3</span><br><span class="line"></span><br><span class="line">echo &quot;exec /usr/local/bin/gnome-session&quot; &gt; ~/.xinitrc</span><br><span class="line">vi /etc/rc.conf</span><br><span class="line"></span><br><span class="line">hald_enable=&quot;YES&quot;</span><br><span class="line">dbus_enable=&quot;YES&quot;</span><br><span class="line">gdm_enable=&quot;YES&quot;</span><br></pre></td></tr></table></figure>
+<p>就搞定了。</p>
+<p>桌面的体验比gnome2感觉要流畅很多。</p>
+<hr>
+<p>安装初始状态：FreeBSD 11.0标准化安装流程进行完后，未进行任何操作的裸机。</p>
+<p>首先进行的是</p>
+<p>#portsnap fetch update</p>
+<p>#portsnamp extercet</p>
+<p>1、安装wget</p>
+<p>#cd /usr/port/ftp/wget</p>
+<p>#make install clean</p>
+<p><a href="https://www.linuxidc.com/Linux/2014-02/96133.htm" target="_blank" rel="noopener">FreeBSD安装各种字体</a></p>
+<p>[<a href="http://www.cnblogs.com/william-lee/archive/2015/08/26/4761358.html" target="_blank" rel="noopener">最近几天玩freebsd奋斗成果总结</a></p>
+<p><a href="https://www.cnblogs.com/x3d/category/409118.html" target="_blank" rel="noopener">bsd博客很多</a></p>
+<p><a href="https://www.douban.com/note/93141232/" target="_blank" rel="noopener">FreeBSD软件安装卸载工具–Ports和Packages详解！</a></p>
+<h4 id="大部份的情况下，UNIX-的指令输入方式都有下列规则："><a href="#大部份的情况下，UNIX-的指令输入方式都有下列规则：" class="headerlink" title="大部份的情况下，UNIX 的指令输入方式都有下列规则："></a>大部份的情况下，UNIX 的指令输入方式都有下列规则：</h4><ul>
+<li>指令通常全部都是小写。</li>
+<li>选项 (Options) 可以用来改变指令本身的行为，而选项通常会有一个减号 (-) 做开头。我们可以同时使用多个选项，例如 -ld 表示同时使用 l 和 d 这二个选项。我们也可以将这二个选项分开来写，例如 -l -d 。</li>
+<li>在指令、选项、和参数之间必须由空白隔开。</li>
+<li>选项通常放在参数之前。例如 ls -l /usr，选项 -l 必须放在文件名 /usr 之前。</li>
+<li>我们可以在一行命令列中输入多个指令，但每个指令必须使用分号 (;) 隔开。例如，pwd; ls。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">特殊按键</span><br></pre></td></tr></table></figure>
+<h4 id="当我们在使用命令列输入指令时，有一些特殊按键可以让我们在命令列中移动。例如，我们可以使用键盘的左右键来移动光标，其它还有一些常用的热键如下："><a href="#当我们在使用命令列输入指令时，有一些特殊按键可以让我们在命令列中移动。例如，我们可以使用键盘的左右键来移动光标，其它还有一些常用的热键如下：" class="headerlink" title="当我们在使用命令列输入指令时，有一些特殊按键可以让我们在命令列中移动。例如，我们可以使用键盘的左右键来移动光标，其它还有一些常用的热键如下："></a>当我们在使用命令列输入指令时，有一些特殊按键可以让我们在命令列中移动。例如，我们可以使用键盘的左右键来移动光标，其它还有一些常用的热键如下：</h4><ul>
+<li>[Backspace]、[Del]、[Ctrl] + [H]：使用键盘的退格键、Delete 键、或是按着 [Ctrl] 键及 H 键，可以删除一个字符。</li>
+<li>[Ctrl] + [U]：用以清除整个命令列所输入的数据。</li>
+<li>[Ctrl] + [W]：用以清除游标之前的一整个字。</li>
+<li>[Ctrl] + [C]：用来中断目前的输入，或是中断一个正在执行的指令。例如，您执行了一个指令，但是该指令跑了很久都没跑完，您可以按 [Ctrl]+[C] 来中断它。</li>
+</ul>
+<p><a href="https://www.cnblogs.com/limich/p/7479991.html" target="_blank" rel="noopener">流程图制作</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: 开始 </span><br><span class="line">e=&gt;end: 登录 </span><br><span class="line">io1=&gt;inputoutput: 输入用户名密码 </span><br><span class="line">sub1=&gt;subroutine: 数据库查询子类 </span><br><span class="line">cond=&gt;condition: 是否有此用户 </span><br><span class="line">cond2=&gt;condition: 密码是否正确 </span><br><span class="line">op=&gt;operation: 读入用户信息</span><br><span class="line"></span><br><span class="line">st-&gt;io1-&gt;sub1-&gt;cond </span><br><span class="line">cond(yes,right)-&gt;cond2 </span><br><span class="line">cond(no)-&gt;io1(right) </span><br><span class="line">cond2(yes,right)-&gt;op-&gt;e </span><br><span class="line">cond2(no)-&gt;io1</span><br></pre></td></tr></table></figure>
+<p><img src="../../../Pictures/Screenshot from 2018-09-24 19-30-39.png" alt="UNIX目录结构"></p>
+<h4 id="搜寻档案"><a href="#搜寻档案" class="headerlink" title="搜寻档案"></a>搜寻档案</h4><p>如果您要找的是指令所在路径，可以使用 <code>whereis</code>：</p>
+<p>如果你要找的是任何类型的档案，可以使用 find。例如，我们要在 /etc 找 rc.conf 这个档案的位置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># find /etc -name rc.conf</span><br></pre></td></tr></table></figure>
+<h4 id="vi基本使用"><a href="#vi基本使用" class="headerlink" title="vi基本使用"></a>vi基本使用</h4><p>以下即为进入编辑模式的指令：</p>
+<table>
+<thead>
+<tr>
+<th><strong>按键</strong></th>
+<th><strong>意义</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i</td>
+<td>Insert (插入)，在目前光标前开始输入。</td>
+</tr>
+<tr>
+<td>a</td>
+<td>Append (附加)，在目前光标后开始输入。</td>
+</tr>
+<tr>
+<td>o</td>
+<td>在光标下方新增一空白行并开始编辑。</td>
+</tr>
+<tr>
+<td>O</td>
+<td>在光标上方新增一空白行并开始编辑。</td>
+</tr>
+</tbody>
+</table>
+<p>如果您输入错误，您无法使用 <delete> 或 <backspace> 来删除，我们必须使用 vi 的其它命令来进行。请先按 <code>&lt;Esc&gt;</code> 来进入命令模式，接着您就可以使用下列指令来进行进阶编辑：</backspace></delete></p>
+<table>
+<thead>
+<tr>
+<th><strong>按键</strong></th>
+<th><strong>意义</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x</td>
+<td>删除光标所在位置的字符。</td>
+</tr>
+<tr>
+<td>dw</td>
+<td>删除游标所在到字尾，即删除一个字。</td>
+</tr>
+<tr>
+<td>dd</td>
+<td>删除游标所在一整行。</td>
+</tr>
+<tr>
+<td>d + 数字 + <enter></enter></td>
+<td>删除从光标所在位置到其下方 n 行。例如输入 d5 <enter>，将删除光标所在位置起 6 行。</enter></td>
+</tr>
+<tr>
+<td>yw</td>
+<td>复制光标开始到字尾。</td>
+</tr>
+<tr>
+<td>yy</td>
+<td>复制游标所在一整行。</td>
+</tr>
+<tr>
+<td>y + 数字 + <enter></enter></td>
+<td>复制从光标所在位置到其下方 n 行。例如输入 y4 <enter>，将复制光标所在位置起 5 行。</enter></td>
+</tr>
+<tr>
+<td>p</td>
+<td>贴上上一次复制的内容。</td>
+</tr>
+<tr>
+<td>:w <enter></enter></td>
+<td>存档。</td>
+</tr>
+<tr>
+<td>:w 文件名称 <enter></enter></td>
+<td>另存新檔。您必输在 w 后输入新的档名。</td>
+</tr>
+<tr>
+<td>:q <enter></enter></td>
+<td>离开 vi。如果档案有修改过会无法离开。</td>
+</tr>
+<tr>
+<td>:wq <enter></enter></td>
+<td>存档并离开。</td>
+</tr>
+<tr>
+<td>:q! <enter></enter></td>
+<td>不存档并离开。</td>
+</tr>
+</tbody>
+</table>
+<p>接下来我们说明一下如何在档案中穿梭移动：</p>
+<table>
+<thead>
+<tr>
+<th><strong>按键</strong></th>
+<th><strong>意义</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>h</td>
+<td>游标向左移。</td>
+</tr>
+<tr>
+<td>j</td>
+<td>游标向下移。</td>
+</tr>
+<tr>
+<td>k</td>
+<td>游标向上移。</td>
+</tr>
+<tr>
+<td>l</td>
+<td>游标向右移。</td>
+</tr>
+<tr>
+<td>^</td>
+<td>跳到行首。</td>
+</tr>
+<tr>
+<td>$</td>
+<td>跳到行尾。</td>
+</tr>
+<tr>
+<td>w</td>
+<td>游标跳到下个字的开头。</td>
+</tr>
+<tr>
+<td>e</td>
+<td>游标跳到下个字的结尾。</td>
+</tr>
+<tr>
+<td>b</td>
+<td>游标跳到上个字的开头</td>
+</tr>
+<tr>
+<td><ctrl> + d</ctrl></td>
+<td>光标往下移动半个屏幕。</td>
+</tr>
+<tr>
+<td><ctrl> + u</ctrl></td>
+<td>光标往上移动半个屏幕。</td>
+</tr>
+<tr>
+<td><ctrl> + f</ctrl></td>
+<td>光标往上移动一个屏幕。</td>
+</tr>
+<tr>
+<td><ctrl> + b</ctrl></td>
+<td>光标往下移动一个屏幕。</td>
+</tr>
+<tr>
+<td>:数字 <enter></enter></td>
+<td>跳到 n 行，例如输入 :100 即可将光标移到第 100 行。</td>
+</tr>
+<tr>
+<td>/欲搜寻的字符串 <enter></enter></td>
+<td>输入 / 后，您可以在 / 后输入所要搜寻的字符串，如果要找下一个，则直接按 / <enter> 即可。</enter></td>
+</tr>
+</tbody>
+</table>
+<p>假设我们要设定档案 myfile 可以被所有人读、写、执行，并设定 sticky：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># chmod 1777 myfile</span></span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th><strong>项目</strong></th>
+<th><strong>使用的字符</strong></th>
+<th><strong>代表意义</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>对谁</td>
+<td>u</td>
+<td>使用者 (User)</td>
+</tr>
+<tr>
+<td>对谁</td>
+<td>g</td>
+<td>群组 (Group)</td>
+</tr>
+<tr>
+<td>对谁</td>
+<td>o</td>
+<td>其它人 (Others)</td>
+</tr>
+<tr>
+<td>对谁</td>
+<td>a</td>
+<td>所有人 (All)</td>
+</tr>
+<tr>
+<td>做什么动作</td>
+<td>+</td>
+<td>增加权限</td>
+</tr>
+<tr>
+<td>做什么动作</td>
+<td>-</td>
+<td>移除权限</td>
+</tr>
+<tr>
+<td>做什么动作</td>
+<td>=</td>
+<td>直接设定权限</td>
+</tr>
+<tr>
+<td>权限</td>
+<td>r</td>
+<td>读取</td>
+</tr>
+<tr>
+<td>权限</td>
+<td>w</td>
+<td>写入</td>
+</tr>
+<tr>
+<td>权限</td>
+<td>x</td>
+<td>执行</td>
+</tr>
+<tr>
+<td>权限</td>
+<td>t</td>
+<td>Sticky</td>
+</tr>
+<tr>
+<td>权限</td>
+<td>s</td>
+<td>Set UID 或 GID</td>
+</tr>
+</tbody>
+</table>
+<p>例如，我们要设定其它人对档案 file.txt 只有读取及执行的权利：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># chmod o=rx file.txt</span></span><br></pre></td></tr></table></figure>
+<p>更多 chmod 的用法，请参考「指令应用」一章中的说明。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/FreeBSD/" rel="tag"># FreeBSD</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/31/debian-install/" rel="next" title="debian-install">
+                <i class="fa fa-chevron-left"></i> debian-install
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/10/23/Englishiroot/" rel="prev" title="Englishiroot">
+                Englishiroot <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Limq</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">22</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/limqvip" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:gzlmq1@163.com" target="_blank" title="邮箱">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>邮箱</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.sina.com" title="新浪" target="_blank">新浪</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#不通用户获得-su-权限FreeBSD系统下su-sorry的解决办法"><span class="nav-number">1.</span> <span class="nav-text">不通用户获得 su 权限FreeBSD系统下su:sorry的解决办法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装sudo"><span class="nav-number">2.</span> <span class="nav-text">安装sudo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#reebsd开启root远程登录服务器的操作"><span class="nav-number">3.</span> <span class="nav-text">reebsd开启root远程登录服务器的操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#FreeBSD安装VIM最简单的方法"><span class="nav-number">4.</span> <span class="nav-text">FreeBSD安装VIM最简单的方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#推荐】freeBSD优秀学习站点"><span class="nav-number">5.</span> <span class="nav-text">推荐】freeBSD优秀学习站点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#freebsd-强制重新安装最新版-pkg-命令"><span class="nav-number">6.</span> <span class="nav-text">freebsd 强制重新安装最新版 pkg 命令</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#FreeBSD下修改安装源的方法"><span class="nav-number">7.</span> <span class="nav-text">FreeBSD下修改安装源的方法</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#FreeBSD应该装gnome3做桌面"><span class="nav-number"></span> <span class="nav-text">FreeBSD应该装gnome3做桌面</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#大部份的情况下，UNIX-的指令输入方式都有下列规则："><span class="nav-number">1.</span> <span class="nav-text">大部份的情况下，UNIX 的指令输入方式都有下列规则：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#当我们在使用命令列输入指令时，有一些特殊按键可以让我们在命令列中移动。例如，我们可以使用键盘的左右键来移动光标，其它还有一些常用的热键如下："><span class="nav-number">2.</span> <span class="nav-text">当我们在使用命令列输入指令时，有一些特殊按键可以让我们在命令列中移动。例如，我们可以使用键盘的左右键来移动光标，其它还有一些常用的热键如下：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#搜寻档案"><span class="nav-number">3.</span> <span class="nav-text">搜寻档案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#vi基本使用"><span class="nav-number">4.</span> <span class="nav-text">vi基本使用</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Limq</span>
+
+  
+
+  
+</div>
+
+
+
+
+<
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.0.1</div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i> 访问人数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i> 总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.0.1"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
