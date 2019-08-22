@@ -177,28 +177,6 @@
   </entry>
   
   <entry>
-    <title>Debian-Mysq配置</title>
-    <link href="https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/"/>
-    <id>https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/</id>
-    <published>2018-08-31T11:45:45.000Z</published>
-    <updated>2018-08-31T11:45:45.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;Debian下MySQL配置&quot;&gt;&lt;a href=&quot;#Debian下MySQL配置&quot; class=&quot;headerlink&quot; title=&quot;Debian下MySQL配置&quot;&gt;&lt;/a&gt;Debian下MySQL配置&lt;/h3&gt;&lt;h4 id=&quot;1-修改MySQL的口令&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>debian-install</title>
     <link href="https://limqvip.github.io/2018/08/31/debian-install/"/>
     <id>https://limqvip.github.io/2018/08/31/debian-install/</id>
@@ -212,6 +190,28 @@
         
         
           &lt;h1 id=&quot;制作-Debian-安装-U-盘&quot;&gt;&lt;a href=&quot;#制作-Debian-安装-U-盘&quot; class=&quot;headerlink&quot; title=&quot;制作 Debian 安装 U 盘&quot;&gt;&lt;/a&gt;制作 Debian 安装 U 盘&lt;/h1&gt;&lt;p&gt;用 Debian8
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Debian-Mysq配置</title>
+    <link href="https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/"/>
+    <id>https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/</id>
+    <published>2018-08-31T11:45:45.000Z</published>
+    <updated>2018-08-31T11:45:45.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Debian下MySQL配置&quot;&gt;&lt;a href=&quot;#Debian下MySQL配置&quot; class=&quot;headerlink&quot; title=&quot;Debian下MySQL配置&quot;&gt;&lt;/a&gt;Debian下MySQL配置&lt;/h3&gt;&lt;h4 id=&quot;1-修改MySQL的口令&quot;&gt;&lt;a
         
       
     
@@ -242,6 +242,30 @@
       <category term="English" scheme="https://limqvip.github.io/categories/English/"/>
     
       <category term="T1" scheme="https://limqvip.github.io/categories/English/T1/"/>
+    
+    
+      <category term="收藏" scheme="https://limqvip.github.io/tags/%E6%94%B6%E8%97%8F/"/>
+    
+      <category term="文章" scheme="https://limqvip.github.io/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>技术文章收藏</title>
+    <link href="https://limqvip.github.io/2018/08/25/jishuwenzhangshoucang/"/>
+    <id>https://limqvip.github.io/2018/08/25/jishuwenzhangshoucang/</id>
+    <published>2018-08-25T14:46:05.000Z</published>
+    <updated>2018-08-25T14:46:05.000Z</updated>
+    
+    <summary type="html">
+    
+      技术文章收藏; 技术文章收藏。
+    
+    </summary>
+    
+      <category term="文章收藏" scheme="https://limqvip.github.io/categories/%E6%96%87%E7%AB%A0%E6%94%B6%E8%97%8F/"/>
+    
+      <category term="技术类" scheme="https://limqvip.github.io/categories/%E6%96%87%E7%AB%A0%E6%94%B6%E8%97%8F/%E6%8A%80%E6%9C%AF%E7%B1%BB/"/>
     
     
       <category term="收藏" scheme="https://limqvip.github.io/tags/%E6%94%B6%E8%97%8F/"/>
@@ -285,30 +309,6 @@
       <category term="English" scheme="https://limqvip.github.io/categories/English/"/>
     
       <category term="T1" scheme="https://limqvip.github.io/categories/English/T1/"/>
-    
-    
-      <category term="收藏" scheme="https://limqvip.github.io/tags/%E6%94%B6%E8%97%8F/"/>
-    
-      <category term="文章" scheme="https://limqvip.github.io/tags/%E6%96%87%E7%AB%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>技术文章收藏</title>
-    <link href="https://limqvip.github.io/2018/08/25/jishuwenzhangshoucang/"/>
-    <id>https://limqvip.github.io/2018/08/25/jishuwenzhangshoucang/</id>
-    <published>2018-08-25T14:46:05.000Z</published>
-    <updated>2018-08-25T14:46:05.000Z</updated>
-    
-    <summary type="html">
-    
-      技术文章收藏; 技术文章收藏。
-    
-    </summary>
-    
-      <category term="文章收藏" scheme="https://limqvip.github.io/categories/%E6%96%87%E7%AB%A0%E6%94%B6%E8%97%8F/"/>
-    
-      <category term="技术类" scheme="https://limqvip.github.io/categories/%E6%96%87%E7%AB%A0%E6%94%B6%E8%97%8F/%E6%8A%80%E6%9C%AF%E7%B1%BB/"/>
     
     
       <category term="收藏" scheme="https://limqvip.github.io/tags/%E6%94%B6%E8%97%8F/"/>
@@ -368,28 +368,6 @@
   </entry>
   
   <entry>
-    <title>tools</title>
-    <link href="https://limqvip.github.io/2018/08/22/tools/"/>
-    <id>https://limqvip.github.io/2018/08/22/tools/</id>
-    <published>2018-08-22T14:26:12.000Z</published>
-    <updated>2018-08-22T14:26:12.000Z</updated>
-    
-    <summary type="html">
-    
-      tools&amp;#58; 推荐 Windows 和 ios 的 apps 以及日常使用的电子产品。
-    
-    </summary>
-    
-      <category term="效率工具" scheme="https://limqvip.github.io/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="tools" scheme="https://limqvip.github.io/tags/tools/"/>
-    
-      <category term="效率工具" scheme="https://limqvip.github.io/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="https://limqvip.github.io/2018/08/22/hello-world/"/>
     <id>https://limqvip.github.io/2018/08/22/hello-world/</id>
@@ -412,6 +390,28 @@
     
     
       <category term="tools" scheme="https://limqvip.github.io/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tools</title>
+    <link href="https://limqvip.github.io/2018/08/22/tools/"/>
+    <id>https://limqvip.github.io/2018/08/22/tools/</id>
+    <published>2018-08-22T14:26:12.000Z</published>
+    <updated>2018-08-22T14:26:12.000Z</updated>
+    
+    <summary type="html">
+    
+      tools&amp;#58; 推荐 Windows 和 ios 的 apps 以及日常使用的电子产品。
+    
+    </summary>
+    
+      <category term="效率工具" scheme="https://limqvip.github.io/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="tools" scheme="https://limqvip.github.io/tags/tools/"/>
+    
+      <category term="效率工具" scheme="https://limqvip.github.io/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -518,11 +518,11 @@
   </entry>
   
   <entry>
-    <title>git基础配置命令</title>
-    <link href="https://limqvip.github.io/2018/08/20/gitjichupeizhi/"/>
-    <id>https://limqvip.github.io/2018/08/20/gitjichupeizhi/</id>
+    <title>Winddows bat 基础</title>
+    <link href="https://limqvip.github.io/2018/08/20/batjichu/"/>
+    <id>https://limqvip.github.io/2018/08/20/batjichu/</id>
     <published>2018-08-20T03:13:56.000Z</published>
-    <updated>2019-08-22T01:40:12.245Z</updated>
+    <updated>2019-08-22T01:40:12.244Z</updated>
     
     <summary type="html">
     
@@ -530,7 +530,7 @@
       
         
         
-          &lt;h3 id=&quot;关于版本控制&quot;&gt;&lt;a href=&quot;#关于版本控制&quot; class=&quot;headerlink&quot; title=&quot;关于版本控制&quot;&gt;&lt;/a&gt;关于版本控制&lt;/h3&gt;&lt;p&gt;什么是“版本控制”？我为什么要关心它呢？
+          &lt;h3 id=&quot;bat语法&quot;&gt;&lt;a href=&quot;#bat语法&quot; class=&quot;headerlink&quot; title=&quot;bat语法&quot;&gt;&lt;/a&gt;bat语法&lt;/h3&gt;&lt;figure class=&quot;highlight cmd&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
         
       
     
@@ -538,12 +538,12 @@
     
       <category term="Program" scheme="https://limqvip.github.io/categories/Program/"/>
     
-      <category term="Git" scheme="https://limqvip.github.io/categories/Program/Git/"/>
+      <category term="bat" scheme="https://limqvip.github.io/categories/Program/bat/"/>
     
     
-      <category term="Git" scheme="https://limqvip.github.io/tags/Git/"/>
+      <category term="bat" scheme="https://limqvip.github.io/tags/bat/"/>
     
-      <category term="版本控制" scheme="https://limqvip.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
+      <category term="Windows" scheme="https://limqvip.github.io/tags/Windows/"/>
     
   </entry>
   
