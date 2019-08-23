@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[读书笔记]]></title>
+    <url>%2F2019%2F08%2F23%2Fyuedu%2F</url>
+    <content type="text"><![CDATA[阅读书单 《卓有成效的管理者》–美 彼得 德鲁克 《金字塔原理》–美芭芭拉 明托 思考、表达和解决问题的逻辑 金字塔原理读书笔记 在文章的导入部分，作者介绍了一种基本结构：即讲故事形式，制作悬念与吸引人的注意力的方法。情境——冲突——解决方案S 情境 美国企业经历了重大的衰退C 冲突 法国和德国也面临同样的问题，但美国企业的衰退更严重Q 疑问 为什么A 解答 企业主管没有专注于长期技术竞争力 —————————————我是黄果的分割线————————————— 来说说论据的分类方法，主要有三种，即时间顺序，结构顺序，重要性顺序。 在这个环节，最需要做的就是合并同类项。 比如，咨询顾问发现如下的８个问题。客户对销售报告和库存报告不满意1、提交报告的周期不恰当2、库存数据不可靠3、获得库存数据的时间太迟4、库存数据与销售数据不吻合5、客户希望报告的格式有所改进6、客户希望去除无意义的数据7、客户希望突出说明特殊情况8、客户希望减少手工计算 怎么对其进行合并同类项呢？ —————————————我是黄果的分割线————————————— 总结之后，可以分成三种问题。一、时机不好（1、3）二、数据不符合要求（2、4、6）三、格式不对（5、7、8） —————————————我是黄果的分割线————————————— 这本书中，我还找到了一些平时经常使用的结论的理论依据与来源。 第一，神奇的数字7 在TTT中，强调一页PPT，最好不要超过七行，或者超过７个知识点是因为： 乔治 A 米勒 论文《神奇的数字7＋—2》提出，大脑的短期记忆无法一次容纳7个以上的记忆项目，根据个体的差异，有的能记住9个，有的只能记住5个。 第二，字号多大合适32是非常有用的数字，用最一位观众到屏幕的距离（英尺）除以32，得到的就是可以看清楚的最小字号（英寸）。比如观众在16英尺远，屏幕上的字号就必须是0.5英寸。 第三，图表需要回答的问题一般分为五类一、有哪些组成部分二、数量如何？ 与总数的比较，相互之间的比较，随时间的变化三、有何变化，如何变化四、各项如何分布五、各项之间的相关性]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>读书笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[基金基础知识]]></title>
     <url>%2F2019%2F08%2F23%2Ffu-base%2F</url>
     <content type="text"><![CDATA[中国结算开放式基金新版系统管理人数据接口规范2.术语定义2.1基金业务当事人基金发起人–基金发起人是指以基金的成立为目的的，并按照规定设立条件和程序设立基金的人。 基金管理人–基金管理人是指依法从事投资基金管理的基金管理公司。 基金托管人–基金托管人是指依法保管基金资产、监督管理人投资活动的机构，一般由商业银行承担。 注册（过户）登记人（或称TA）–负责基础投资人账户保管、交易记录保存、代理分红、投资人账户报告、等级基金份额等服务的机构。 基金持有人–基金持有人是指持有证券投资基金份额的投资人。 基金销售人–销售基金的法人或自然人。目前的销售方式有直接销售和代理销售两种。 2.2业务种类开户–基金投资人申请设立基金数量账户和投资账户的业务。 注册（过户）登记基金账号（或称 TA 基金账号）—注册登记人为基金投资人设立的基金数量帐户，用于记录和保存持有人的基金单位数量。 直销–基金管理人直接面向基金投资人销售基金。 代销–基金管理人通过协议委托另乙方销售其所管理的基金。 认购–投资人在开放式基金募集期间申请购买该基金的行为。 申购–投资人申请购买已经成立的开放式基金行为。基金管理人接到投资人的购买申请时，应按照当日公布的基金份额净资产加减必要的费用予以成交，基金托管人按照规定与基金管理人办理交割与清算手续，注册登记人增加投资人账户的基金数量和基金资产。 赎回-基金持有人申请开放式基金管理人买回该投资人已购其管理的开放式基金的行为。接到基金持有人的请求时，基金管理人应当按当日公布的基金份额净资产加减必要的费用予以成交，基金托管人按规定与基金管理人办理交割与清算手续，在规定期限内向基金持有人支付赎回资金，注册登记人减少基金持有人账户基金数量和基金的资产。 巨额赎回—在基金的单个开放日，基金净赎回申请超过该基金总份额的一定比例时，就是巨额赎回。根据《开放式证券投资基金试点办法》（证监基金字[2000]73 号）的规定，这一比例为 10%。预约赎回—基金持有人为给基金管理人一定的时间办理赎回业务而提前发出的在未来某日赎回的申请。分红—按基金契约的规定，基金管理人在每个会计年度将基金运作所得收益按一定的比例分配给基金持有人的行为。登记日—登记基金持有人按其所持基金享受基金分红权力的时点。红利发放日—向基金持有人拨付红利款项的日期。红利再投资—基金持有人可以将所持基金分得的现金红利自动申请转为持有该基金单位的投资活动，基金管理人一般愿意提供这种服务，鼓励投资人继续持有基金资产。非交易过户—基金赠与、继承、协助执行司法判决等有双方参与且涉及基金单位数量变化的过户业务。基金转换—基金管理人向基金持有人提供的一种服务，即将基金持有人的某种基金转换为同一基金管理人管理的另一种基金的服务。 2.3 基金信息基金单位资产净值—基金单位资产净值应当按照开放日闭市后基金资产净值除以当日基金单位的余额数量计算。具体计算方法在基金契约和招募说明书中载明。申购费—指投资人申购开放式基金单位所需支付的费用。申购费可在投资人申购基金单位时收取，即前收申购费；或在投资人卖出基金单位时收取，即后收申购费。基金管理人不可同时采用前收申购费和后收申购费两种方式。赎回费—指投资人卖出开放式基金单位时所支付的费用。帐户管理费—帐户管理费指基金管理人向投资人收取的用于管理维护投资人基金帐户的费用。注册（过户）登记费—注册（过户）登记费用由基金管理人根据“注册登记代理协议”向注册登记代理人支付。注册（过户）登记代理人可对以下业务内容进行收费：开户、认购、申购、赎回的基金单位登记、过户和其他有关投资人帐户活动的业务项目。尾随佣金—是基金管理人给与基金的代理销售人的销售业绩报酬，尾随佣金一般在第 13 个月起按所其管理的基金资产的季度平均余额计算，按季支付。手续费—代理销售人向基金投资人、持有人收取的业务经办费用。]]></content>
@@ -149,17 +160,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F08%2F22%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>效率工具</category>
-      </categories>
-      <tags>
-        <tag>tools</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[tools]]></title>
     <url>%2F2018%2F08%2F22%2Ftools%2F</url>
     <content type="text"><![CDATA[君子生非异也，善假于物也。 荀子 说明 主要介绍 Windows、iOS 的 Apps（下文 Apple 指代 iOS）。 适合自己的工具，才是最好的工具，所以本文仅供参考，自行尝试最重要。 笔者是工具控，目力之内看起来还有点用的工具都会折腾过一遍。 过程中浪费了许多时间精力在很少派上用场甚至无用的工具上。 善于发现生活中关键的效率瓶颈，再根据需求寻找或创造工具就足够了。 因为折腾工具而忘记了把事做成的初心，实在是南辕北辙。 App 选择原则 「常用」的工具才值得折腾，不常用的凑合着用就行了。 「实用」最重要，美观次之，价格别太贵就行。 「稳定」：不能时常引起系统崩溃，起码提升效率的收益得超过操作系统崩溃重启的损失。 「简洁易用」：满足实际的需求即可，不需要花哨、多余的功能。 参考相关文章 《Mac 效率指南》 《Mac 快捷键》 参考阅读 少数派 - 高质量 App 推荐媒体，关于 iOS、Mac、硬件。 Best App - List in GitHub 字体格式的含义 删除线 标识的一定是我现在不用的 Apps。 软件常用 网络访问 Chrome 配合 cVim 拓展，可在浏览器内 使用 Vim 键位 浏览网页、操作浏览器！键盘党神器 可惜它无法在页面未加载完毕的情况下使用 Vim 键位，不够（Firefox + VimFX）极致！ 用 Inspect Element（审查元素）配合 Postman 等做 Web 开发、调试，比 Firefox 顺手。 常用 Trello Favorite 基于 Board 的事务管理。 使用 board 看板、list 列表、card 卡片等，组织事务； 使用 description 描述、comment 评论、attachment 附件等，跟踪记录事务内容； 根据 事务内容、label 标签、due date 截止期限等，考虑事务的优先次序。 我在现实管理工作项目的过程中，GitLab Issue Board 的应用，给我带来了很大的帮助。虽然那段时间很忙，但我还是有条不紊地推进了我和同事间的分工协作。自此迷上了使用 Board 的方式去管理事务。 类似的产品很多，Trello 是最简洁、好用、易上手的，这是我用它的关键原因。Slack 的服务被墙，在移动端访问不便（而 Trello 没被墙）；而国内的模仿者们则做得太复杂了，可能因为他们主攻 toB 的市场，不适合我这样的个人用户来使用，所以无爱。 2Do PowerfulGTD 事务管理。 功能齐全、好用，用法可简可繁。快捷键完备！ 推荐使用 iCloud Reminders 的 CalDAV 同步方式（支持 2Do 绝大部分特性，足以满足我的需求）；Dropbox 的同步方式虽然可以支持 2Do 的所有特性，可是需要翻墙才能同步数据，iPhone 需要长期开着 VPN 略显麻烦。所以为了稳定和省心，选择了前一种同步方式。 1Password Privacy 帐号密码管理，以及私人信息的加密存储。 用一（两）个主密码管理所有其它密码。可生成随机密码，可记录登录网站时用的帐号密码，可自动填写表单登录网站。 以前一直用不惯，觉得用浏览器自带的自动登录和 iCloud 的 KeyChain Access 来记录管理帐号和密码足矣，可是不便于保存一些私人信息。工作之后，经济独立，更加注意保护个人隐私和财产安全了，要管理的私人信息多而杂乱，所以不得不借助专用的工具。 其它选择： KeyChain Access：macOS &amp; iOS 原生支持，方便免费。 Dashlane：好用，但贵。 LastPass：够用，免费。 Outlook邮箱客户端，微软出品。 方便设置在邮箱服务器生效的邮件规则（因为公司邮箱用 Outlook 的服务）。自动处理，屏蔽干扰，提高邮件处理效率。 将不同类型邮件归类到不同文件夹； 将可以忽略的邮件标为已读； 自动删除无用邮件。]]></content>
@@ -169,6 +169,17 @@
       <tags>
         <tag>tools</tag>
         <tag>效率工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F08%2F22%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>效率工具</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
       </tags>
   </entry>
   <entry>
@@ -230,18 +241,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[用 Hexo + Github 搭建属于自己的博客]]></title>
-    <url>%2F2018%2F08%2F20%2Flimqfirst%2F</url>
-    <content type="text"><![CDATA[最近几天一直想做一个自己的博客，把学习过的技术看过的文章都整理起来，花了几天的时间博客初步搭建完成，看了很多大佬文章，但是自己搭建还是遇到很多坑，下面就写写搭建过程。希望对看到的人有帮助。 本文主要介绍 Windows 7 x64 下 Hexo: 3.7.1 + GitHub 搭建（不同的 Hexo 版本，有的设置可能会有差异）。 搭建环境1. 安装 git可以到 git 官网下载相应平台版本进行安装。 2. 申请 GitHub 账号进入 GitHub 注册。注册过程略。 3. 安装 node.js到 node.js 官网下载相应平台的最新版本，傻瓜式安装（自带安装 npm）。在 git bash 下执行npm -v 查看是否安装成功 npm。如果安装成功会显示对应版本号。 12$ npm -v5.6.0 4. 安装 Hexo打开 git bash 或者 cmd, 执行以下命令:npm install -g hexo 搭建 Hexo1. 初始化执行hexo init myblog创建一个名为 myblog 的博客。该命令会生成一个 myblog 文件夹。进入 myblog 目录 cd myblog, myblog 是博客的主目录。 2. 安装必须依赖包hexo install &lt;name&gt; 3. 生成静态页面hexo generate or hexo g 4. 本地运行hexo server 或者 hexo s 打开浏览器，在地址栏输入localhost:4000，就可以看到我们搭建好的本地博客了。到此只是搭建好了本地博客。 部署博客到 GitHub , 通过域名访问博客。1.新建repository建立与你用户名对应的仓库，仓库名必须为【 your_username.github.io】,例如我的博客 limqvip.github.io. 2.部署博客1. 修改配置文件进入你的hexo文件夹根目录下，用编辑器打开 _config.yml, 修改 deploy 项，如下（根据你的 GitHub 进行相应更改）： 1234deploy: type: git #注意：有的版本type是github repo: https://github.com/limqvip/limqvip.github.io.git branch: master 2. 执行 hexo d 部署到 github 上。12345678910INFO Deploying: gitINFO Clearing .deploy_git folder...INFO Copying files from public folder...INFO Copying files from extend dirs...…略 create mode 100644 "tags/\347\211\210\346\234\254\346\216\247\345\210\266/index.html"Branch master set up to track remote branch master from git@github.com:limqvip/limqvip.github.io.git.To github.com:limqvip/limqvip.github.io.git 5867eb8..f25e3d4 HEAD -&gt; masterINFO Deploy done: git 此时就完成部署了，用浏览器访问 https://limqvip.github.io 即可(第一次发布可能会有 10 分钟的延迟)。 每次修改完本地的文件后要执行以下命令，重新部署到 github 上： hexo cleanhexo generatehexo deploy 或者 hexo d 常用命令hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录hexo server #开启预览访问端口（默认端口 4000, ‘ctrl + c’ 关闭 server）hexo deploy #将 .deploy 目录部署到 GitHubhexo help # 查看帮助hexo version #查看 Hexo 的版本 报错总结 出现 error deployer not found:git 或者 error deployer not found:github 的错误 解决办法：执行 npm install hexo-deployer-git –save 出现类似 FATAL can not read a block mapping entry; a multiline key may not be an implicit key at line 70, column 1: … 错误 解决办法：_config.yml 中配置项的英文冒号后面要用空格隔开，再跟内容。 中文乱码问题 解决办法：将文件的内容编码改为 UTF8 格式 ‘hexo sever’ 能够成功运行，但是 localhost:4000 无法访问 解决办法：执行 hexo s -p 5000, 改用其他端口启动 安装步骤很简单，但中间走了很多弯路，因此，主要记录一下那些曾经走过的弯路。 新建项目时报错：npm WARN deprecated istanbul-lib-hook@1.2.1: 1.2.0 should havebeen a major version bumpnpm ERR! Unexpected end of JSON input while parsing near ‘…registry.npm.taobao.o‘ npm ERR! A complete log of this run can be found in:npm ERR!C:\Users\Admin\AppData\Roaming\npm-cache_logs\2018-06-08T14_01_13_067Z-debug.logPackage install failed, see above. 如下所示： 解决方法：网上查找的一般是说运行：npm cache clean --force，但清除缓存之后，再次新建项目，还是报这个错。然后根据提示信息，取消了淘宝镜像，问题解决。 取消淘宝镜像： 12npm config delete registrynpm config delete disturl 运行 npm config edit 可看到 registry 中已经变成了默认镜像。参考：设置和取消淘宝镜像 新建项目时报的警告：npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {“os”:”darwin”,”arch”:”any”} (current: {“os”:”win32”,”arch”:”x64”}) ‘git‘ 不是内部或外部命令，也不是可运行的程序或批处理文件。 安装git插件 卸载 angular, 因为反反复复卸载重装了好几次 angular, 因此也记录一下卸载过程吧。 123npm uninstall -g angular-cli npm uninstall -g @angular/clinpm cache clean 在运行 npm cache clean 时报错如下图，根据信息提示改成了 npm cache verify 总结：一定要根据官网教程安装，网上的教程很多很乱，开始就是根据网上教程装的很混乱， 导致报了很多莫名其妙的错。 本文由职坐标整理并发布，希望对同学们有所帮助。了解更多详情请关注 WEB 前端 Node.js 频道！]]></content>
-      <categories>
-        <category>Program</category>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Winddows bat 基础]]></title>
     <url>%2F2018%2F08%2F20%2Fbatjichu%2F</url>
     <content type="text"><![CDATA[bat语法1234cd ./RptFile/%Today%dir /B /A-D .\end.ok 2&gt;nul | find /V /C ""&gt;D:/TT/count.txtset /P c=&lt;D:/TT/count.txtecho END.OK %c%个 12345678910::此脚本用来统计目录下文件与文件夹个数 与wind属性相似。::把D:\putty替换成统计目录@echo off&amp;title limq @ BAT-GO At:2010-09-19 12:23:59set Today=%Date:~0,4%%Date:~5,2%%Date:~8,2%echo 今天是%Today%下面开始统计文件echo 统计中~~~for /f "delims=" %%a in ('dir /s/b/a-d D:\putty ') do set/a a+=1for /f "delims=" %%a in ('dir /s/b/ad D:\putty ') do set/a b+=1set /p=【D:\putty 】文件夹内有 %b% 个文件夹， %a% 个文件，&lt;nul&amp;pause 例子1：for /r %%i in ( ) do echo %%i解释：如果在括号里的是一些无特殊意义的字符如”.” “abc”之类的， 那输出的%%i的值为遍历到的文件夹的绝对地址（地址带有\号）后加上这些特殊字符。 如果括号里的是含有通配符（ ？）的，那么不是像上边那样直接加在文件夹地址后了。含有通配符的字符串会被扩展成实际存在的文件名。比如 `for /r %%i in (1.tt) do echo %%i` 这个代码将显示所有符合要求（比如 1.txt 1.tt 1.tst）的文件的绝对路径。 例子2：for /d /r %%i in ( ) do echo %%i解释：第一种情况和上面相似，直接把字符加在路径后面。 如果含有通配符的，那么它将显示所有的文件夹名符合通配规则的文件夹的绝对路径，同时去掉\号。 ps： 例子1的代码会把当前目录和子目录显示出来，而例子2只显示当前目录的子目录。例子1显示的结果可以看成是文件，而例子2显示的结果则应该看成是文件夹，因为有/d 的存在。如果输出的%%i格式达不到要求，还可以用%%~fi 之类的修正。]]></content>
@@ -252,6 +251,18 @@
       <tags>
         <tag>bat</tag>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[用 Hexo + Github 搭建属于自己的博客]]></title>
+    <url>%2F2018%2F08%2F20%2Flimqfirst%2F</url>
+    <content type="text"><![CDATA[最近几天一直想做一个自己的博客，把学习过的技术看过的文章都整理起来，花了几天的时间博客初步搭建完成，看了很多大佬文章，但是自己搭建还是遇到很多坑，下面就写写搭建过程。希望对看到的人有帮助。 本文主要介绍 Windows 7 x64 下 Hexo: 3.7.1 + GitHub 搭建（不同的 Hexo 版本，有的设置可能会有差异）。 搭建环境1. 安装 git可以到 git 官网下载相应平台版本进行安装。 2. 申请 GitHub 账号进入 GitHub 注册。注册过程略。 3. 安装 node.js到 node.js 官网下载相应平台的最新版本，傻瓜式安装（自带安装 npm）。在 git bash 下执行npm -v 查看是否安装成功 npm。如果安装成功会显示对应版本号。 12$ npm -v5.6.0 4. 安装 Hexo打开 git bash 或者 cmd, 执行以下命令:npm install -g hexo 搭建 Hexo1. 初始化执行hexo init myblog创建一个名为 myblog 的博客。该命令会生成一个 myblog 文件夹。进入 myblog 目录 cd myblog, myblog 是博客的主目录。 2. 安装必须依赖包hexo install &lt;name&gt; 3. 生成静态页面hexo generate or hexo g 4. 本地运行hexo server 或者 hexo s 打开浏览器，在地址栏输入localhost:4000，就可以看到我们搭建好的本地博客了。到此只是搭建好了本地博客。 部署博客到 GitHub , 通过域名访问博客。1.新建repository建立与你用户名对应的仓库，仓库名必须为【 your_username.github.io】,例如我的博客 limqvip.github.io. 2.部署博客1. 修改配置文件进入你的hexo文件夹根目录下，用编辑器打开 _config.yml, 修改 deploy 项，如下（根据你的 GitHub 进行相应更改）： 1234deploy: type: git #注意：有的版本type是github repo: https://github.com/limqvip/limqvip.github.io.git branch: master 2. 执行 hexo d 部署到 github 上。12345678910INFO Deploying: gitINFO Clearing .deploy_git folder...INFO Copying files from public folder...INFO Copying files from extend dirs...…略 create mode 100644 "tags/\347\211\210\346\234\254\346\216\247\345\210\266/index.html"Branch master set up to track remote branch master from git@github.com:limqvip/limqvip.github.io.git.To github.com:limqvip/limqvip.github.io.git 5867eb8..f25e3d4 HEAD -&gt; masterINFO Deploy done: git 此时就完成部署了，用浏览器访问 https://limqvip.github.io 即可(第一次发布可能会有 10 分钟的延迟)。 每次修改完本地的文件后要执行以下命令，重新部署到 github 上： hexo cleanhexo generatehexo deploy 或者 hexo d 常用命令hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录hexo server #开启预览访问端口（默认端口 4000, ‘ctrl + c’ 关闭 server）hexo deploy #将 .deploy 目录部署到 GitHubhexo help # 查看帮助hexo version #查看 Hexo 的版本 报错总结 出现 error deployer not found:git 或者 error deployer not found:github 的错误 解决办法：执行 npm install hexo-deployer-git –save 出现类似 FATAL can not read a block mapping entry; a multiline key may not be an implicit key at line 70, column 1: … 错误 解决办法：_config.yml 中配置项的英文冒号后面要用空格隔开，再跟内容。 中文乱码问题 解决办法：将文件的内容编码改为 UTF8 格式 ‘hexo sever’ 能够成功运行，但是 localhost:4000 无法访问 解决办法：执行 hexo s -p 5000, 改用其他端口启动 安装步骤很简单，但中间走了很多弯路，因此，主要记录一下那些曾经走过的弯路。 新建项目时报错：npm WARN deprecated istanbul-lib-hook@1.2.1: 1.2.0 should havebeen a major version bumpnpm ERR! Unexpected end of JSON input while parsing near ‘…registry.npm.taobao.o‘ npm ERR! A complete log of this run can be found in:npm ERR!C:\Users\Admin\AppData\Roaming\npm-cache_logs\2018-06-08T14_01_13_067Z-debug.logPackage install failed, see above. 如下所示： 解决方法：网上查找的一般是说运行：npm cache clean --force，但清除缓存之后，再次新建项目，还是报这个错。然后根据提示信息，取消了淘宝镜像，问题解决。 取消淘宝镜像： 12npm config delete registrynpm config delete disturl 运行 npm config edit 可看到 registry 中已经变成了默认镜像。参考：设置和取消淘宝镜像 新建项目时报的警告：npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {“os”:”darwin”,”arch”:”any”} (current: {“os”:”win32”,”arch”:”x64”}) ‘git‘ 不是内部或外部命令，也不是可运行的程序或批处理文件。 安装git插件 卸载 angular, 因为反反复复卸载重装了好几次 angular, 因此也记录一下卸载过程吧。 123npm uninstall -g angular-cli npm uninstall -g @angular/clinpm cache clean 在运行 npm cache clean 时报错如下图，根据信息提示改成了 npm cache verify 总结：一定要根据官网教程安装，网上的教程很多很乱，开始就是根据网上教程装的很混乱， 导致报了很多莫名其妙的错。 本文由职坐标整理并发布，希望对同学们有所帮助。了解更多详情请关注 WEB 前端 Node.js 频道！]]></content>
+      <categories>
+        <category>Program</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
