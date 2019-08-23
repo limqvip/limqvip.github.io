@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://limqvip.github.io/"/>
-  <updated>2019-08-23T02:35:12.000Z</updated>
+  <updated>2019-08-23T05:23:31.000Z</updated>
   <id>https://limqvip.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基金基础知识</title>
+    <link href="https://limqvip.github.io/2019/08/23/fu-base/"/>
+    <id>https://limqvip.github.io/2019/08/23/fu-base/</id>
+    <published>2019-08-23T05:23:31.000Z</published>
+    <updated>2019-08-23T05:23:31.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;中国结算开放式基金新版系统管理人数据接口规范&quot;&gt;&lt;a href=&quot;#中国结算开放式基金新版系统管理人数据接口规范&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="基金基础" scheme="https://limqvip.github.io/categories/%E5%9F%BA%E9%87%91%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="基金基础" scheme="https://limqvip.github.io/tags/%E5%9F%BA%E9%87%91%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>网址导航</title>
@@ -207,28 +233,6 @@
   </entry>
   
   <entry>
-    <title>debian-install</title>
-    <link href="https://limqvip.github.io/2018/08/31/debian-install/"/>
-    <id>https://limqvip.github.io/2018/08/31/debian-install/</id>
-    <published>2018-08-31T11:45:45.000Z</published>
-    <updated>2018-08-31T11:45:45.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;制作-Debian-安装-U-盘&quot;&gt;&lt;a href=&quot;#制作-Debian-安装-U-盘&quot; class=&quot;headerlink&quot; title=&quot;制作 Debian 安装 U 盘&quot;&gt;&lt;/a&gt;制作 Debian 安装 U 盘&lt;/h1&gt;&lt;p&gt;用 Debian8
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Debian-Mysq配置</title>
     <link href="https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/"/>
     <id>https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/</id>
@@ -242,6 +246,28 @@
         
         
           &lt;h3 id=&quot;Debian下MySQL配置&quot;&gt;&lt;a href=&quot;#Debian下MySQL配置&quot; class=&quot;headerlink&quot; title=&quot;Debian下MySQL配置&quot;&gt;&lt;/a&gt;Debian下MySQL配置&lt;/h3&gt;&lt;h4 id=&quot;1-修改MySQL的口令&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>debian-install</title>
+    <link href="https://limqvip.github.io/2018/08/31/debian-install/"/>
+    <id>https://limqvip.github.io/2018/08/31/debian-install/</id>
+    <published>2018-08-31T11:45:45.000Z</published>
+    <updated>2018-08-31T11:45:45.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;制作-Debian-安装-U-盘&quot;&gt;&lt;a href=&quot;#制作-Debian-安装-U-盘&quot; class=&quot;headerlink&quot; title=&quot;制作 Debian 安装 U 盘&quot;&gt;&lt;/a&gt;制作 Debian 安装 U 盘&lt;/h1&gt;&lt;p&gt;用 Debian8
         
       
     
@@ -272,30 +298,6 @@
       <category term="English" scheme="https://limqvip.github.io/categories/English/"/>
     
       <category term="T1" scheme="https://limqvip.github.io/categories/English/T1/"/>
-    
-    
-      <category term="收藏" scheme="https://limqvip.github.io/tags/%E6%94%B6%E8%97%8F/"/>
-    
-      <category term="文章" scheme="https://limqvip.github.io/tags/%E6%96%87%E7%AB%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>技术文章收藏</title>
-    <link href="https://limqvip.github.io/2018/08/25/jishuwenzhangshoucang/"/>
-    <id>https://limqvip.github.io/2018/08/25/jishuwenzhangshoucang/</id>
-    <published>2018-08-25T14:46:05.000Z</published>
-    <updated>2018-08-25T14:46:05.000Z</updated>
-    
-    <summary type="html">
-    
-      技术文章收藏; 技术文章收藏。
-    
-    </summary>
-    
-      <category term="文章收藏" scheme="https://limqvip.github.io/categories/%E6%96%87%E7%AB%A0%E6%94%B6%E8%97%8F/"/>
-    
-      <category term="技术类" scheme="https://limqvip.github.io/categories/%E6%96%87%E7%AB%A0%E6%94%B6%E8%97%8F/%E6%8A%80%E6%9C%AF%E7%B1%BB/"/>
     
     
       <category term="收藏" scheme="https://limqvip.github.io/tags/%E6%94%B6%E8%97%8F/"/>
@@ -339,6 +341,30 @@
       <category term="English" scheme="https://limqvip.github.io/categories/English/"/>
     
       <category term="T1" scheme="https://limqvip.github.io/categories/English/T1/"/>
+    
+    
+      <category term="收藏" scheme="https://limqvip.github.io/tags/%E6%94%B6%E8%97%8F/"/>
+    
+      <category term="文章" scheme="https://limqvip.github.io/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>技术文章收藏</title>
+    <link href="https://limqvip.github.io/2018/08/25/jishuwenzhangshoucang/"/>
+    <id>https://limqvip.github.io/2018/08/25/jishuwenzhangshoucang/</id>
+    <published>2018-08-25T14:46:05.000Z</published>
+    <updated>2018-08-25T14:46:05.000Z</updated>
+    
+    <summary type="html">
+    
+      技术文章收藏; 技术文章收藏。
+    
+    </summary>
+    
+      <category term="文章收藏" scheme="https://limqvip.github.io/categories/%E6%96%87%E7%AB%A0%E6%94%B6%E8%97%8F/"/>
+    
+      <category term="技术类" scheme="https://limqvip.github.io/categories/%E6%96%87%E7%AB%A0%E6%94%B6%E8%97%8F/%E6%8A%80%E6%9C%AF%E7%B1%BB/"/>
     
     
       <category term="收藏" scheme="https://limqvip.github.io/tags/%E6%94%B6%E8%97%8F/"/>
@@ -398,28 +424,6 @@
   </entry>
   
   <entry>
-    <title>tools</title>
-    <link href="https://limqvip.github.io/2018/08/22/tools/"/>
-    <id>https://limqvip.github.io/2018/08/22/tools/</id>
-    <published>2018-08-22T14:26:12.000Z</published>
-    <updated>2018-08-22T14:26:12.000Z</updated>
-    
-    <summary type="html">
-    
-      tools&amp;#58; 推荐 Windows 和 ios 的 apps 以及日常使用的电子产品。
-    
-    </summary>
-    
-      <category term="效率工具" scheme="https://limqvip.github.io/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="tools" scheme="https://limqvip.github.io/tags/tools/"/>
-    
-      <category term="效率工具" scheme="https://limqvip.github.io/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="https://limqvip.github.io/2018/08/22/hello-world/"/>
     <id>https://limqvip.github.io/2018/08/22/hello-world/</id>
@@ -442,6 +446,28 @@
     
     
       <category term="tools" scheme="https://limqvip.github.io/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tools</title>
+    <link href="https://limqvip.github.io/2018/08/22/tools/"/>
+    <id>https://limqvip.github.io/2018/08/22/tools/</id>
+    <published>2018-08-22T14:26:12.000Z</published>
+    <updated>2018-08-22T14:26:12.000Z</updated>
+    
+    <summary type="html">
+    
+      tools&amp;#58; 推荐 Windows 和 ios 的 apps 以及日常使用的电子产品。
+    
+    </summary>
+    
+      <category term="效率工具" scheme="https://limqvip.github.io/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="tools" scheme="https://limqvip.github.io/tags/tools/"/>
+    
+      <category term="效率工具" scheme="https://limqvip.github.io/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -476,34 +502,6 @@
   </entry>
   
   <entry>
-    <title>Linux 下 Oracle 命令行工具 Rlwrap</title>
-    <link href="https://limqvip.github.io/2018/08/20/rlwrap/"/>
-    <id>https://limqvip.github.io/2018/08/20/rlwrap/</id>
-    <published>2018-08-20T09:05:48.000Z</published>
-    <updated>2018-08-20T09:05:48.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;如果您对Rlwrap这个工具不是很熟悉，建议参考一下这篇文章：&lt;a href=&quot;http://space.itpub.net/519536/viewspace-614104&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Rlwrap Linux 上实现
-        
-      
-    
-    </summary>
-    
-      <category term="Program" scheme="https://limqvip.github.io/categories/Program/"/>
-    
-      <category term="Oracle" scheme="https://limqvip.github.io/categories/Program/Oracle/"/>
-    
-    
-      <category term="Oracle" scheme="https://limqvip.github.io/tags/Oracle/"/>
-    
-  </entry>
-  
-  <entry>
     <title>数据库基础1</title>
     <link href="https://limqvip.github.io/2018/08/20/shujukujichu1/"/>
     <id>https://limqvip.github.io/2018/08/20/shujukujichu1/</id>
@@ -530,20 +528,30 @@
   </entry>
   
   <entry>
-    <title>第一篇文章</title>
-    <link href="https://limqvip.github.io/2018/08/20/one/"/>
-    <id>https://limqvip.github.io/2018/08/20/one/</id>
-    <published>2018-08-20T07:48:52.000Z</published>
-    <updated>2018-08-20T07:48:52.000Z</updated>
+    <title>Linux 下 Oracle 命令行工具 Rlwrap</title>
+    <link href="https://limqvip.github.io/2018/08/20/rlwrap/"/>
+    <id>https://limqvip.github.io/2018/08/20/rlwrap/</id>
+    <published>2018-08-20T09:05:48.000Z</published>
+    <updated>2018-08-20T09:05:48.000Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;p&gt;如果您对Rlwrap这个工具不是很熟悉，建议参考一下这篇文章：&lt;a href=&quot;http://space.itpub.net/519536/viewspace-614104&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Rlwrap Linux 上实现
+        
+      
+    
     </summary>
     
-      <category term="life" scheme="https://limqvip.github.io/categories/life/"/>
+      <category term="Program" scheme="https://limqvip.github.io/categories/Program/"/>
+    
+      <category term="Oracle" scheme="https://limqvip.github.io/categories/Program/Oracle/"/>
     
     
-      <category term="Python" scheme="https://limqvip.github.io/tags/Python/"/>
+      <category term="Oracle" scheme="https://limqvip.github.io/tags/Oracle/"/>
     
   </entry>
   

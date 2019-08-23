@@ -121,7 +121,7 @@
 
 
 
-  <title>Debian-Mysq配置 | stone</title>
+  <title>标签: 基金基础 | stone</title>
   
 
 
@@ -150,7 +150,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
      
 
@@ -266,232 +266,58 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
+  
+  
+  
+  <div class="post-block tag">
 
-  
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h1>基金基础<small>标签</small>
+        </h1>
+      </div>
 
-  
-  
-  
-
-  
+      
+        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/">
+    <header class="post-header">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Limq">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="stone">
-    </span>
-
-    
-      <header class="post-header">
-
+      <h2 class="post-title">
         
+            <a class="post-title-link" href="/2019/08/23/fu-base/" itemprop="url">
+              
+                <span itemprop="name">基金基础知识</span>
+              
+            </a>
         
-          <h1 class="post-title" itemprop="name headline">Debian-Mysq配置</h1>
-        
+      </h2>
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-31T19:45:45+08:00">2018-08-31</time>
-            
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2019-08-23T13:23:31+08:00"
+              content="2019-08-23" >
+          08-23
+        </time>
+      </div>
 
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于&#58;</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2018-08-31T19:45:45+08:00">2018-08-31</time>
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-            <span class="post-meta-divider">|</span>
-            <span class="page-pv"><i class="fa fa-file-o"></i> 浏览
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
-            </span>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <h3 id="Debian下MySQL配置"><a href="#Debian下MySQL配置" class="headerlink" title="Debian下MySQL配置"></a>Debian下MySQL配置</h3><h4 id="1-修改MySQL的口令"><a href="#1-修改MySQL的口令" class="headerlink" title="1 修改MySQL的口令　　"></a><strong>1 修改MySQL的口令</strong>　　</h4><p>由于MySQL默认没有口令，为了安全起见，一定要修改你的口令！<br>　　先来看看你的mysql是不是真的没有口令：</p>
-<p><code>$ mysqladmin version</code></p>
-<p>　　如果你能够看到mysql的版本信息，证明目前MySQL没有口令。<br>　　好，运行mysqladmin password xxxxxx 修改口令:</p>
-<p><code>mysqladmin password xxxxxx</code></p>
-<p>　　这里xxxxxx是你的新口令。<br>　　现在你需要运行 mysqladmin version –user=root –pass,然后输入口令，才能查看版本号等信息。<br>　　注意，上面命令中的–user=root –pass这一部分，可以简写为-u root -p。我们来测试一下，看口令是否生效：</p>
-<p><code>mysqladmin version -u root -p Enter password:</code></p>
-<h4 id="2-打开3306端口监听"><a href="#2-打开3306端口监听" class="headerlink" title="2 打开3306端口监听"></a><strong>2 打开3306端口监听</strong></h4><p>　　这项工作要慎重。处于安全考虑，默认情况下，Debian把3306端口关闭了。因为，不少黑客通过它来攻击你的系统。如果你不通过其他机器来存取数据库，那么不要打开这个端口。<br>　　修改/etc/mysql/my.cnf，找到：</p>
-<p><code>skip-networking</code></p>
-<p>　　把它注释掉：</p>
-<p><code>#skip-networking</code></p>
-<h4 id="3-修改默认字符集"><a href="#3-修改默认字符集" class="headerlink" title="3 修改默认字符集　　"></a><strong>3 修改默认字符集</strong>　　</h4><p>　　让MySQL把简体中文作为默认的字符集。编辑/etc/init.d/mysql，找到这一行：</p>
-<p><code>/usr/bin/safe_mysqld &gt; /dev/null 2&gt;&amp;1 &amp;</code></p>
-<p> 　　改成：</p>
-<p><code>/usr/bin/safe_mysqld &gt; --default-character-set=gb2312 &gt; /dev/null 2&gt;&amp;1 &amp;</code></p>
-<p>　　好，重新启动MySQL:</p>
-<p><code>#/etc/init.d/mysql restart</code></p>
-<hr>
-<ol>
-<li><p>Mysql安装</p>
-<p><code>apt-get install mysql-server</code> 安装 Mysql</p>
-</li>
-<li><p>Mysql 登录</p>
-<p><code>sudo mysql</code></p>
-</li>
-<li><p>查看已有数据库<br><code>show databases;</code></p>
-</li>
-<li><p>创建一个数据库</p>
-<p><code>CREATE DATABASE my_suppliers;</code></p>
-</li>
-<li><p>选择数据库</p>
-<p><code>USE my_suppliers;</code></p>
-</li>
-<li><p>创建一个表</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="keyword">IF</span> <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> Suppliers</span><br><span class="line">(Supplier_Name <span class="built_in">VARCHAR</span>(<span class="number">20</span>),</span><br><span class="line">Invoice_Number <span class="built_in">VARCHAR</span>(<span class="number">20</span>),</span><br><span class="line">Part_Number <span class="built_in">VARCHAR</span>(<span class="number">20</span>),</span><br><span class="line"><span class="keyword">Cost</span> <span class="built_in">FLOAT</span>,</span><br><span class="line">Purchase_Date <span class="built_in">DATE</span>);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>查看表结构<br><code>DESCRIBE Suppliers;</code></p>
-</li>
-<li><p>创建一个新用户设置密码</p>
-<p><code>CREATE USER &#39;username&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;secret_password&#39;;</code></p>
-</li>
-<li><p>给用户授权</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">GRANT</span>  ALL <span class="keyword">PRIVILEGES</span> <span class="keyword">ON</span> my_suppliers.* <span class="keyword">TO</span> <span class="string">'username'</span>@<span class="string">'localhost'</span>;</span><br><span class="line"><span class="keyword">FLUSH</span> <span class="keyword">PRIVILEGES</span>;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<hr>
-<p>然大家可能在python2.x中用习惯了mysqldb，但是在python3.x中已经不支持那个组件了。</p>
-<p>取而代之的是：</p>
-<p>import pymysql</p>
-<p>所以，大家pip起来吧。另外，mysql官方出了个mysql.connector，也可以用。</p>
-<p>我这用的例子如下：</p>
-<p>import pymysql<br>conn = pymysql.connect(host=’127.0.0.1’, port=3306, user=’root’, passwd=’test’,<br>db=’mysql’)<br>cur = conn.cursor()<br>cur.execute(“SELECT * FROM user”)<br>for r in cur.fetchall():<br>print(r)<br>#cur.close()<br>conn.close()</p>
-<hr>
-<p><a href="https://www.cnblogs.com/sheng-247/p/7681039.html" target="_blank" rel="noopener">Python3 连接 Mysql</a></p>
-<hr>
-<h1 id="inux打通两台机器的ssh功能（linux远程连接可以不输入密码）"><a href="#inux打通两台机器的ssh功能（linux远程连接可以不输入密码）" class="headerlink" title="inux打通两台机器的ssh功能（linux远程连接可以不输入密码）"></a>inux打通两台机器的ssh功能（linux远程连接可以不输入密码）</h1><p>2017年05月25日 17:58:01 </p>
-<p>标签： <a href="http://so.csdn.net/so/search/s.do?q=linux&amp;t=blog" target="_blank" rel="noopener">linux</a><a href="http://so.csdn.net/so/search/s.do?q=ssh&amp;t=blog" target="_blank" rel="noopener">ssh</a><a href="http://so.csdn.net/so/search/s.do?q=%E5%85%8D%E5%AF%86&amp;t=blog" target="_blank" rel="noopener">免密</a>更多</p>
-<p>个人分类： <a href="https://blog.csdn.net/yan_wenliang/article/category/6938951" target="_blank" rel="noopener">ssh</a></p>
-<blockquote>
-<p><strong>注意：</strong><br>.ssh 这个文件夹需要有700权限<br>执行<strong>chmod -R 700 .ssh &amp;&amp; chmod 700 .ssh/. &amp;&amp; chmod 700 .ssh/..</strong><br>记住，两个隐藏文件夹也要有700权限。</p>
-</blockquote>
-<p>ssh-copy-id 方法：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//到用户目录</span></span><br><span class="line">cd</span><br><span class="line"></span><br><span class="line"><span class="comment">//生成一对密钥：id_rsa（私钥）和id_rsa.pub（公钥），保存在~/.ssh目录。</span></span><br><span class="line"><span class="comment">//遇到停顿，一直回车就可以。</span></span><br><span class="line"><span class="comment">//如果之前生成过，不用操作这个步骤</span></span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line"></span><br><span class="line"><span class="comment">//将公钥拷贝到目标机器，需要密码</span></span><br><span class="line">ssh-copy-id -i ~/.ssh/id_rsa.pub $username@$ip12345678910</span><br></pre></td></tr></table></figure>
-<p>scp方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">cd           </span><br><span class="line"></span><br><span class="line"><span class="comment">//如果之前生成过，不用操作这个步骤</span></span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line"></span><br><span class="line">scp ~/.ssh/id_dsa.pub $username@$ip:~/.ssh/source-machine-key</span><br><span class="line"></span><br><span class="line"><span class="comment">//登录到目标主机，这次需要密码</span></span><br><span class="line">ssh $username@$ip</span><br><span class="line"></span><br><span class="line">cat ~/.ssh/source-machine-key &gt;&gt; ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
-<hr>
-
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/08/31/debian-install/" rel="next" title="debian-install">
-                <i class="fa fa-chevron-left"></i> debian-install
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/09/20/freebsdinstall-md/" rel="prev" title="freebsdinstall.md">
-                freebsdinstall.md <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
+    </header>
   </article>
 
 
-
-    <div class="post-spread">
       
     </div>
+
   </div>
-
-
-          </div>
-          
+  
+  
+  
 
   
 
 
+          </div>
+          
 
         </div>
         
@@ -512,17 +338,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -619,22 +436,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Debian下MySQL配置"><span class="nav-number">1.</span> <span class="nav-text">Debian下MySQL配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-修改MySQL的口令"><span class="nav-number">1.1.</span> <span class="nav-text">1 修改MySQL的口令　　</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-打开3306端口监听"><span class="nav-number">1.2.</span> <span class="nav-text">2 打开3306端口监听</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-修改默认字符集"><span class="nav-number">1.3.</span> <span class="nav-text">3 修改默认字符集　　</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#inux打通两台机器的ssh功能（linux远程连接可以不输入密码）"><span class="nav-number"></span> <span class="nav-text">inux打通两台机器的ssh功能（linux远程连接可以不输入密码）</span></a></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
@@ -784,10 +585,6 @@
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.0.1"></script>
-
-
 
   
 
