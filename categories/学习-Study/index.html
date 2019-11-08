@@ -124,7 +124,7 @@
 
 
 
-  <title>用 Hexo + Github 搭建属于自己的博客 | stone</title>
+  <title>分类: 学习 | Study | stone</title>
   
 
 
@@ -153,7 +153,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
      
 
@@ -269,256 +269,59 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
+  
+  
+  
+  <div class="post-block category">
 
-  
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h1>学习 | Study<small>分类</small>
+        </h1>
+      </div>
 
-  
-  
-  
-
-  
+      
+        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://limqvip.github.io/2018/08/20/limqfirst/">
+    <header class="post-header">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Limq">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="stone">
-    </span>
-
-    
-      <header class="post-header">
-
+      <h2 class="post-title">
         
+            <a class="post-title-link" href="/2019/11/08/Windows-cmd-bat/" itemprop="url">
+              
+                <span itemprop="name">Windows批处理(cmd/bat)常用命令小结</span>
+              
+            </a>
         
-          <h1 class="post-title" itemprop="name headline">用 Hexo + Github 搭建属于自己的博客</h1>
-        
+      </h2>
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-20T11:13:56+08:00">2018-08-20</time>
-            
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2019-11-08T09:22:32+08:00"
+              content="2019-11-08" >
+          11-08
+        </time>
+      </div>
 
-            
-              <span class="post-meta-divider">|</span>
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">更新于&#58;</span>
-              
-              <time title="更新于" itemprop="dateModified" datetime="2019-08-22T09:40:12+08:00">2019-08-22</time>
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Program/" itemprop="url" rel="index">
-                    <span itemprop="name">Program</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Program/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-            <span class="post-meta-divider">|</span>
-            <span class="page-pv"><i class="fa fa-file-o"></i> 浏览
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
-            </span>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p>最近几天一直想做一个自己的博客，把学习过的技术看过的文章都整理起来，花了几天的时间<a href="limqvip.github.io">博客</a>初步搭建完成，看了很多大佬文章，但是自己搭建还是遇到很多坑，下面就写写搭建过程。希望对看到的人有帮助。</p>
-<p>本文主要介绍 Windows 7 x64 下 Hexo: 3.7.1 + GitHub 搭建（不同的 Hexo 版本，有的设置可能会有差异）。</p>
-<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><h4 id="1-安装-git"><a href="#1-安装-git" class="headerlink" title="1. 安装 git"></a>1. 安装 git</h4><p>可以到 <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a> 官网下载相应平台版本进行安装。</p>
-<h4 id="2-申请-GitHub-账号"><a href="#2-申请-GitHub-账号" class="headerlink" title="2. 申请 GitHub 账号"></a>2. 申请 GitHub 账号</h4><p>进入 <a href="https://link.jianshu.com/?t=https://github.com/" target="_blank" rel="noopener">GitHub </a> 注册。注册过程略。</p>
-<h4 id="3-安装-node-js"><a href="#3-安装-node-js" class="headerlink" title="3. 安装 node.js"></a>3. 安装 node.js</h4><p>到 <a href="https://link.jianshu.com/?t=https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js</a> 官网下载相应平台的最新版本，傻瓜式安装（自带安装 npm）。在 git bash 下执行<code>npm -v</code> 查看是否安装成功 npm。如果安装成功会显示对应版本号。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm -v</span><br><span class="line">5.6.0</span><br></pre></td></tr></table></figure>
-<h4 id="4-安装-Hexo"><a href="#4-安装-Hexo" class="headerlink" title="4. 安装 Hexo"></a>4. 安装 Hexo</h4><p>打开 git bash 或者 cmd, 执行以下命令:<br><code>npm install -g hexo</code></p>
-<h2 id="搭建-Hexo"><a href="#搭建-Hexo" class="headerlink" title="搭建 Hexo"></a>搭建 Hexo</h2><h4 id="1-初始化"><a href="#1-初始化" class="headerlink" title="1. 初始化"></a>1. 初始化</h4><p>执行<code>hexo init myblog</code>创建一个名为 myblog 的博客。该命令会生成一个 myblog 文件夹。进入 myblog 目录 <code>cd myblog</code>, myblog 是博客的主目录。</p>
-<h4 id="2-安装必须依赖包"><a href="#2-安装必须依赖包" class="headerlink" title="2. 安装必须依赖包"></a>2. 安装必须依赖包</h4><p><code>hexo install &lt;name&gt;</code></p>
-<h4 id="3-生成静态页面"><a href="#3-生成静态页面" class="headerlink" title="3. 生成静态页面"></a>3. 生成静态页面</h4><p><code>hexo generate</code> or <code>hexo g</code></p>
-<h4 id="4-本地运行"><a href="#4-本地运行" class="headerlink" title="4. 本地运行"></a>4. 本地运行</h4><p><code>hexo server</code> 或者 <code>hexo s</code></p>
-<p>打开浏览器，在地址栏输入localhost:4000，就可以看到我们搭建好的本地博客了。到此只是搭建好了本地博客。</p>
-<h2 id="部署博客到-GitHub-通过域名访问博客。"><a href="#部署博客到-GitHub-通过域名访问博客。" class="headerlink" title="部署博客到 GitHub , 通过域名访问博客。"></a>部署博客到 GitHub , 通过域名访问博客。</h2><h4 id="1-新建repository"><a href="#1-新建repository" class="headerlink" title="1.新建repository"></a>1.新建repository</h4><p>建立与你用户名对应的仓库，仓库名必须为【 your_username.github.io】,例如我的博客 limqvip.github.io. </p>
-<h4 id="2-部署博客"><a href="#2-部署博客" class="headerlink" title="2.部署博客"></a>2.部署博客</h4><h5 id="1-修改配置文件"><a href="#1-修改配置文件" class="headerlink" title="1. 修改配置文件"></a>1. 修改配置文件</h5><p>进入你的hexo文件夹根目录下，用编辑器打开 _config.yml, 修改 deploy 项，如下（根据你的 GitHub 进行相应更改）：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git       <span class="comment">#注意：有的版本type是github</span></span><br><span class="line">  repo: https://github.com/limqvip/limqvip.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<h5 id="2-执行-hexo-d-部署到-github-上。"><a href="#2-执行-hexo-d-部署到-github-上。" class="headerlink" title="2. 执行 hexo d 部署到 github 上。"></a>2. 执行 <code>hexo d</code> 部署到 github 上。</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">INFO  Deploying: git</span><br><span class="line">INFO  Clearing .deploy_git folder...</span><br><span class="line">INFO  Copying files from public folder...</span><br><span class="line">INFO  Copying files from extend <span class="built_in">dirs</span>...</span><br><span class="line">…略</span><br><span class="line"> create mode 100644 <span class="string">"tags/\347\211\210\346\234\254\346\216\247\345\210\266/index.html"</span></span><br><span class="line">Branch master <span class="built_in">set</span> up to track remote branch master from git@github.com:limqvip/limqvip.github.io.git.</span><br><span class="line">To github.com:limqvip/limqvip.github.io.git</span><br><span class="line">   5867eb8..f25e3d4  HEAD -&gt; master</span><br><span class="line">INFO  Deploy <span class="keyword">done</span>: git</span><br></pre></td></tr></table></figure>
-<p>此时就完成部署了，用浏览器访问 <a href="https://limqvip.github.io">https://limqvip.github.io</a> 即可(第一次发布可能会有 10 分钟的延迟)。</p>
-<p>每次修改完本地的文件后要执行以下命令，重新部署到 github 上：</p>
-<p><code>hexo clean</code><br><code>hexo generate</code><br><code>hexo deploy</code> 或者 <code>hexo d</code></p>
-<h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4><p><code>hexo new &quot;postName&quot;</code> #新建文章<br><code>hexo new page &quot;pageName&quot;</code> #新建页面<br><code>hexo generate</code> #生成静态页面至public目录<br><code>hexo server</code> #开启预览访问端口（默认端口 4000, ‘ctrl + c’ 关闭 server）<br><code>hexo deploy</code> #将 .deploy 目录部署到 GitHub<br><code>hexo help</code> # 查看帮助<br><code>hexo version</code> #查看 Hexo 的版本</p>
-<h4 id="报错总结"><a href="#报错总结" class="headerlink" title="报错总结"></a>报错总结</h4><ol>
-<li><p>出现 error deployer not found:git 或者 error deployer not found:github 的错误</p>
-<p>解决办法：执行 npm install hexo-deployer-git –save</p>
-</li>
-<li><p>出现类似 FATAL can not read a block mapping entry; a multiline key may not be an implicit key at line 70, column 1: … 错误</p>
-<p>解决办法：_config.yml 中配置项的英文冒号后面要用空格隔开，再跟内容。</p>
-</li>
-<li><p>中文乱码问题</p>
-<p>解决办法：将文件的内容编码改为 UTF8 格式</p>
-</li>
-<li><p>‘hexo sever’ 能够成功运行，但是 localhost:4000 无法访问</p>
-<p>解决办法：执行 hexo s -p 5000, 改用其他端口启动</p>
-<hr>
-<p>安装步骤很简单，但中间走了很多弯路，因此，主要记录一下那些曾经走过的弯路。</p>
-<ol>
-<li><p>新建项目时报错：<br>npm WARN deprecated <a href="mailto:istanbul-lib-hook@1.2.1" target="_blank" rel="noopener">istanbul-lib-hook@1.2.1</a>: 1.2.0 should have<br>been a major version bumpnpm ERR! Unexpected end of JSON input while parsing near ‘…registry.npm.taobao.o‘ npm ERR! A complete log of this run can be found in:npm ERR!<br>C:\Users\Admin\AppData\Roaming\npm-cache_logs\2018-06-08T14_01_13_067Z-debug.logPackage install failed, see above. 如下所示：</p>
-<p>解决方法：网上查找的一般是说运行：<code>npm cache clean --force</code>，但清除缓存之后，再次新建项目，还是报这个错。然后根据提示信息，取消了淘宝镜像，问题解决。</p>
-<p>取消淘宝镜像：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config delete registry</span><br><span class="line">npm config delete disturl</span><br></pre></td></tr></table></figure>
-<p>运行 <code>npm config edit</code> 可看到 registry 中已经变成了默认镜像。参考：设置和取消淘宝镜像 </p>
-</li>
-<li><p>新建项目时报的警告：npm WARN optional SKIPPING OPTIONAL DEPENDENCY: <a href="mailto:fsevents@1.2.4" target="_blank" rel="noopener">fsevents@1.2.4</a> (node_modules\fsevents):npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for <a href="mailto:fsevents@1.2.4" target="_blank" rel="noopener">fsevents@1.2.4</a>: wanted {“os”:”darwin”,”arch”:”any”} (current: {“os”:”win32”,”arch”:”x64”}) ‘git‘ 不是内部或外部命令，也不是可运行的程序或批处理文件。 安装git插件</p>
-</li>
-<li><p>卸载 angular, 因为反反复复卸载重装了好几次 angular, 因此也记录一下卸载过程吧。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall -g angular-cli </span><br><span class="line">npm uninstall -g @angular/cli</span><br><span class="line">npm cache clean</span><br></pre></td></tr></table></figure>
-<p> 在运行 <code>npm cache clean</code>  时报错如下图，根据信息提示改成了 <code>npm cache verify</code>  总结：一定要根据官网教程安装，网上的教程很多很乱，开始就是根据网上教程装的很混乱，   导致报了很多莫名其妙的错。 本文由职坐标整理并发布，希望对同学们有所帮助。了解更多详情请关注 WEB 前端 Node.js 频道！ </p>
-</li>
-</ol>
-</li>
-</ol>
-
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/Python/" rel="tag"># Python</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/08/20/batjichu/" rel="next" title="Winddows bat 基础">
-                <i class="fa fa-chevron-left"></i> Winddows bat 基础
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/20/gitjichupeizhi/" rel="prev" title="git基础配置命令">
-                git基础配置命令 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
+    </header>
   </article>
 
 
-
-    <div class="post-spread">
       
     </div>
+
   </div>
-
-
-          </div>
-          
+  
+  
+  
 
   
 
 
+
+          </div>
+          
 
         </div>
         
@@ -539,17 +342,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -646,22 +440,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建环境"><span class="nav-number">1.</span> <span class="nav-text">搭建环境</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-安装-git"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 安装 git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-申请-GitHub-账号"><span class="nav-number">1.0.2.</span> <span class="nav-text">2. 申请 GitHub 账号</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-安装-node-js"><span class="nav-number">1.0.3.</span> <span class="nav-text">3. 安装 node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-安装-Hexo"><span class="nav-number">1.0.4.</span> <span class="nav-text">4. 安装 Hexo</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建-Hexo"><span class="nav-number">2.</span> <span class="nav-text">搭建 Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-初始化"><span class="nav-number">2.0.1.</span> <span class="nav-text">1. 初始化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-安装必须依赖包"><span class="nav-number">2.0.2.</span> <span class="nav-text">2. 安装必须依赖包</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-生成静态页面"><span class="nav-number">2.0.3.</span> <span class="nav-text">3. 生成静态页面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-本地运行"><span class="nav-number">2.0.4.</span> <span class="nav-text">4. 本地运行</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署博客到-GitHub-通过域名访问博客。"><span class="nav-number">3.</span> <span class="nav-text">部署博客到 GitHub , 通过域名访问博客。</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-新建repository"><span class="nav-number">3.0.1.</span> <span class="nav-text">1.新建repository</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-部署博客"><span class="nav-number">3.0.2.</span> <span class="nav-text">2.部署博客</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-修改配置文件"><span class="nav-number">3.0.2.1.</span> <span class="nav-text">1. 修改配置文件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-执行-hexo-d-部署到-github-上。"><span class="nav-number">3.0.2.2.</span> <span class="nav-text">2. 执行 hexo d 部署到 github 上。</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#常用命令"><span class="nav-number">3.0.3.</span> <span class="nav-text">常用命令</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#报错总结"><span class="nav-number">3.0.4.</span> <span class="nav-text">报错总结</span></a></li></ol></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
@@ -811,10 +589,6 @@
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.0.1"></script>
-
-
 
   
 
