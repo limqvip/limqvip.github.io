@@ -347,28 +347,6 @@
   </entry>
   
   <entry>
-    <title>debian-install</title>
-    <link href="https://limqvip.github.io/2018/08/31/debian-install/"/>
-    <id>https://limqvip.github.io/2018/08/31/debian-install/</id>
-    <published>2018-08-31T11:45:45.000Z</published>
-    <updated>2018-08-31T11:45:45.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;制作-Debian-安装-U-盘&quot;&gt;&lt;a href=&quot;#制作-Debian-安装-U-盘&quot; class=&quot;headerlink&quot; title=&quot;制作 Debian 安装 U 盘&quot;&gt;&lt;/a&gt;制作 Debian 安装 U 盘&lt;/h1&gt;&lt;p&gt;用 Debian8
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Debian-Mysq配置</title>
     <link href="https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/"/>
     <id>https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/</id>
@@ -382,6 +360,28 @@
         
         
           &lt;h3 id=&quot;Debian下MySQL配置&quot;&gt;&lt;a href=&quot;#Debian下MySQL配置&quot; class=&quot;headerlink&quot; title=&quot;Debian下MySQL配置&quot;&gt;&lt;/a&gt;Debian下MySQL配置&lt;/h3&gt;&lt;h4 id=&quot;1-修改MySQL的口令&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>debian-install</title>
+    <link href="https://limqvip.github.io/2018/08/31/debian-install/"/>
+    <id>https://limqvip.github.io/2018/08/31/debian-install/</id>
+    <published>2018-08-31T11:45:45.000Z</published>
+    <updated>2018-08-31T11:45:45.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;制作-Debian-安装-U-盘&quot;&gt;&lt;a href=&quot;#制作-Debian-安装-U-盘&quot; class=&quot;headerlink&quot; title=&quot;制作 Debian 安装 U 盘&quot;&gt;&lt;/a&gt;制作 Debian 安装 U 盘&lt;/h1&gt;&lt;p&gt;用 Debian8
         
       
     
