@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://limqvip.github.io/"/>
-  <updated>2019-11-08T05:19:17.000Z</updated>
+  <updated>2019-12-07T04:16:51.000Z</updated>
   <id>https://limqvip.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《面向未来-好好学习》课程笔记</title>
+    <link href="https://limqvip.github.io/2019/12/07/leaning/"/>
+    <id>https://limqvip.github.io/2019/12/07/leaning/</id>
+    <published>2019-12-07T04:16:51.000Z</published>
+    <updated>2019-12-07T04:16:51.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;主题：面向未来好好学习&lt;br&gt;课程讲师：成甲&lt;br&gt;成甲，主业是做景区设计咨询，2009年联合创办了北京京都风景生态旅游规划设计院，并担任常务副院长。曾多次受邀在清华MBA、第九学院、多角度沙龙、中国惠普、埃森哲、中国人寿集团等机构团队进行演讲，做关于个人时间管理、知识管理
+        
+      
+    
+    </summary>
+    
+      <category term="洞察力" scheme="https://limqvip.github.io/categories/%E6%B4%9E%E5%AF%9F%E5%8A%9B/"/>
+    
+    
+      <category term="学习" scheme="https://limqvip.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>book</title>
@@ -293,28 +319,6 @@
   </entry>
   
   <entry>
-    <title>debian-install</title>
-    <link href="https://limqvip.github.io/2018/08/31/debian-install/"/>
-    <id>https://limqvip.github.io/2018/08/31/debian-install/</id>
-    <published>2018-08-31T11:45:45.000Z</published>
-    <updated>2018-08-31T11:45:45.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;制作-Debian-安装-U-盘&quot;&gt;&lt;a href=&quot;#制作-Debian-安装-U-盘&quot; class=&quot;headerlink&quot; title=&quot;制作 Debian 安装 U 盘&quot;&gt;&lt;/a&gt;制作 Debian 安装 U 盘&lt;/h1&gt;&lt;p&gt;用 Debian8
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Debian-Mysq配置</title>
     <link href="https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/"/>
     <id>https://limqvip.github.io/2018/08/31/Debian-mysql-peizhi/</id>
@@ -328,6 +332,28 @@
         
         
           &lt;h3 id=&quot;Debian下MySQL配置&quot;&gt;&lt;a href=&quot;#Debian下MySQL配置&quot; class=&quot;headerlink&quot; title=&quot;Debian下MySQL配置&quot;&gt;&lt;/a&gt;Debian下MySQL配置&lt;/h3&gt;&lt;h4 id=&quot;1-修改MySQL的口令&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>debian-install</title>
+    <link href="https://limqvip.github.io/2018/08/31/debian-install/"/>
+    <id>https://limqvip.github.io/2018/08/31/debian-install/</id>
+    <published>2018-08-31T11:45:45.000Z</published>
+    <updated>2018-08-31T11:45:45.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;制作-Debian-安装-U-盘&quot;&gt;&lt;a href=&quot;#制作-Debian-安装-U-盘&quot; class=&quot;headerlink&quot; title=&quot;制作 Debian 安装 U 盘&quot;&gt;&lt;/a&gt;制作 Debian 安装 U 盘&lt;/h1&gt;&lt;p&gt;用 Debian8
         
       
     
@@ -480,32 +506,6 @@
       <category term="SQL" scheme="https://limqvip.github.io/tags/SQL/"/>
     
       <category term="PLSQL" scheme="https://limqvip.github.io/tags/PLSQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://limqvip.github.io/2018/08/22/hello-world/"/>
-    <id>https://limqvip.github.io/2018/08/22/hello-world/</id>
-    <published>2018-08-22T14:26:12.000Z</published>
-    <updated>2018-08-22T14:26:12.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="效率工具" scheme="https://limqvip.github.io/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="tools" scheme="https://limqvip.github.io/tags/tools/"/>
     
   </entry>
   
