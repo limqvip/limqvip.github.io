@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://limqvip.github.io/"/>
-  <updated>2019-12-07T04:56:17.000Z</updated>
+  <updated>2019-12-07T11:21:20.000Z</updated>
   <id>https://limqvip.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于认知的学习方法</title>
+    <link href="https://limqvip.github.io/2019/12/07/leaningnote/"/>
+    <id>https://limqvip.github.io/2019/12/07/leaningnote/</id>
+    <published>2019-12-07T11:21:20.000Z</published>
+    <updated>2019-12-07T11:21:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;学会自检，学渣逆袭的第一步&lt;/p&gt;
+&lt;p&gt;自检，也就是自我检查，想要成为学霸，想要成为更好的自己，你就先得对自己目前的情况有所了解，你先得尝试去找到你现在具体的问题在哪里，不能简单的说“我是学渣”，用这样一个宽泛的理由作为借口。掩盖背后阻碍你学习的根本原因，曾经我做英语老师
+        
+      
+    
+    </summary>
+    
+      <category term="学习方法" scheme="https://limqvip.github.io/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+    
+      <category term="学习方法" scheme="https://limqvip.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>《管理者语言艺术》课程笔记</title>
@@ -508,32 +535,6 @@
       <category term="Shell" scheme="https://limqvip.github.io/tags/Shell/"/>
     
       <category term="Linux" scheme="https://limqvip.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Oracle 常用命令</title>
-    <link href="https://limqvip.github.io/2018/08/24/Oracle-chongyongmingling/"/>
-    <id>https://limqvip.github.io/2018/08/24/Oracle-chongyongmingling/</id>
-    <published>2018-08-24T13:29:14.000Z</published>
-    <updated>2018-08-24T13:29:14.000Z</updated>
-    
-    <summary type="html">
-    
-      Oacle&amp;#58; Oracle 用命令，适合初学者。
-    
-    </summary>
-    
-      <category term="Program" scheme="https://limqvip.github.io/categories/Program/"/>
-    
-      <category term="Oracle" scheme="https://limqvip.github.io/categories/Program/Oracle/"/>
-    
-    
-      <category term="Oracle" scheme="https://limqvip.github.io/tags/Oracle/"/>
-    
-      <category term="SQL" scheme="https://limqvip.github.io/tags/SQL/"/>
-    
-      <category term="PLSQL" scheme="https://limqvip.github.io/tags/PLSQL/"/>
     
   </entry>
   
